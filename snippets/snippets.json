@@ -1,103 +1,103 @@
 {
   "animation:|": {
     "prefix": "janim",
-    "body": "animation: '$0'"
+    "body": "animation: '$0',"
   },
   "animation:${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode}": {
     "prefix": "janim-",
-    "body": "animation: '${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode}'"
+    "body": "animation: '${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode}',"
   },
   "animation-delay:${1:time}": {
     "prefix": "janimdel",
-    "body": "animationDelay: '${1:time}'"
+    "body": "animationDelay: '${1:time}',"
   },
   "animation-direction:${1:normal}": {
     "prefix": "janimdir",
-    "body": "animationDirection: '${1:normal}'"
+    "body": "animationDirection: '${1:normal}',"
   },
   "animation-direction:normal": {
     "prefix": "janimdir:n",
-    "body": "animationDirection: 'normal'"
+    "body": "animationDirection: 'normal',"
   },
   "animation-direction:reverse": {
     "prefix": "janimdir:r",
-    "body": "animationDirection: 'reverse'"
+    "body": "animationDirection: 'reverse',"
   },
   "animation-direction:alternate": {
     "prefix": "janimdir:a",
-    "body": "animationDirection: 'alternate'"
+    "body": "animationDirection: 'alternate',"
   },
   "animation-direction:alternate-reverse": {
     "prefix": "janimdir:ar",
-    "body": "animationDirection: 'alternate-reverse'"
+    "body": "animationDirection: 'alternate-reverse',"
   },
   "animation-duration:${1:0}s": {
     "prefix": "janimdur",
-    "body": "animationDuration: '${1:0}s'"
+    "body": "animationDuration: '${1:0}s',"
   },
   "animation-fill-mode:${1:both}": {
     "prefix": "janimfm",
-    "body": "animationFillMode: '${1:both}'"
+    "body": "animationFillMode: '${1:both}',"
   },
   "animation-fill-mode:forwards": {
     "prefix": "janimfm:f",
-    "body": "animationFillMode: 'forwards'"
+    "body": "animationFillMode: 'forwards',"
   },
   "animation-fill-mode:backwards": {
     "prefix": "janimfm:b",
-    "body": "animationFillMode: 'backwards'"
+    "body": "animationFillMode: 'backwards',"
   },
   "animation-fill-mode:both": {
     "prefix": "janimfm:bh",
-    "body": "animationFillMode: 'both'"
+    "body": "animationFillMode: 'both',"
   },
   "animation-iteration-count:${1:1}": {
     "prefix": "janimic",
-    "body": "animationIterationCount: '${1:1}'"
+    "body": "animationIterationCount: '${1:1}',"
   },
   "animation-iteration-count:infinite": {
     "prefix": "janimic:i",
-    "body": "animationIterationCount: 'infinite'"
+    "body": "animationIterationCount: 'infinite',"
   },
   "animation-name:${1:none}": {
     "prefix": "janimn",
-    "body": "animationName: '${1:none}'"
+    "body": "animationName: '${1:none}',"
   },
   "animation-play-state:${1:running}": {
     "prefix": "janimps",
-    "body": "animationPlayState: '${1:running}'"
+    "body": "animationPlayState: '${1:running}',"
   },
   "animation-play-state:paused": {
     "prefix": "janimps:p",
-    "body": "animationPlayState: 'paused'"
+    "body": "animationPlayState: 'paused',"
   },
   "animation-play-state:running": {
     "prefix": "janimps:r",
-    "body": "animationPlayState: 'running'"
+    "body": "animationPlayState: 'running',"
   },
   "animation-timing-function:${1:linear}": {
     "prefix": "janimtf",
-    "body": "animationTimingFunction: '${1:linear}'"
+    "body": "animationTimingFunction: '${1:linear}',"
   },
   "animation-timing-function:ease": {
     "prefix": "janimtf:e",
-    "body": "animationTimingFunction: 'ease'"
+    "body": "animationTimingFunction: 'ease',"
   },
   "animation-timing-function:ease-in": {
     "prefix": "janimtf:ei",
-    "body": "animationTimingFunction: 'ease-in'"
+    "body": "animationTimingFunction: 'ease-in',"
   },
   "animation-timing-function:ease-out": {
     "prefix": "janimtf:eo",
-    "body": "animationTimingFunction: 'ease-out'"
+    "body": "animationTimingFunction: 'ease-out',"
   },
   "animation-timing-function:ease-in-out": {
     "prefix": "janimtf:eio",
-    "body": "animationTimingFunction: 'ease-in-out'"
+    "body": "animationTimingFunction: 'ease-in-out',"
   },
   "animation-timing-function:linear": {
     "prefix": "janimtf:l",
-    "body": "animationTimingFunction: 'linear'"
+    "body": "animationTimingFunction: 'linear',"
   },
   "animation-timing-function:cubic-bezier(${1:0.1}, ${2:0.7}, ${3:1.0}, ${3:0.1})": {
     "prefix": "janimtf:cb",
