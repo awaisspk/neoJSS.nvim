@@ -1,106 +1,106 @@
 {
   "animation:|": {
-    "prefix": "janim",
+    "prefix": "anim.",
     "body": "animation: '$0',"
   },
   "animation:${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode}": {
-    "prefix": "janim-",
+    "prefix": "anim-.",
     "body": "animation: '${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode}',"
   },
   "animation-delay:${1:time}": {
-    "prefix": "janimdel",
+    "prefix": "animdel.",
     "body": "animationDelay: '${1:time}',"
   },
   "animation-direction:${1:normal}": {
-    "prefix": "janimdir",
+    "prefix": "animdir.",
     "body": "animationDirection: '${1:normal}',"
   },
   "animation-direction:normal": {
-    "prefix": "janimdir:n",
+    "prefix": "animdir:n.",
     "body": "animationDirection: 'normal',"
   },
   "animation-direction:reverse": {
-    "prefix": "janimdir:r",
+    "prefix": "animdir:r.",
     "body": "animationDirection: 'reverse',"
   },
   "animation-direction:alternate": {
-    "prefix": "janimdir:a",
+    "prefix": "animdir:a.",
     "body": "animationDirection: 'alternate',"
   },
   "animation-direction:alternate-reverse": {
-    "prefix": "janimdir:ar",
+    "prefix": "animdir:ar.",
     "body": "animationDirection: 'alternate-reverse',"
   },
   "animation-duration:${1:0}s": {
-    "prefix": "janimdur",
+    "prefix": "animdur.",
     "body": "animationDuration: '${1:0}s',"
   },
   "animation-fill-mode:${1:both}": {
-    "prefix": "janimfm",
+    "prefix": "animfm.",
     "body": "animationFillMode: '${1:both}',"
   },
   "animation-fill-mode:forwards": {
-    "prefix": "janimfm:f",
+    "prefix": "animfm:f.",
     "body": "animationFillMode: 'forwards',"
   },
   "animation-fill-mode:backwards": {
-    "prefix": "janimfm:b",
+    "prefix": "animfm:b.",
     "body": "animationFillMode: 'backwards',"
   },
   "animation-fill-mode:both": {
-    "prefix": "janimfm:bh",
+    "prefix": "animfm:bh.",
     "body": "animationFillMode: 'both',"
   },
   "animation-iteration-count:${1:1}": {
-    "prefix": "janimic",
+    "prefix": "animic.",
     "body": "animationIterationCount: '${1:1}',"
   },
   "animation-iteration-count:infinite": {
-    "prefix": "janimic:i",
+    "prefix": "animic:i.",
     "body": "animationIterationCount: 'infinite',"
   },
   "animation-name:${1:none}": {
-    "prefix": "janimn",
+    "prefix": "animn.",
     "body": "animationName: '${1:none}',"
   },
   "animation-play-state:${1:running}": {
-    "prefix": "janimps",
+    "prefix": "animps.",
     "body": "animationPlayState: '${1:running}',"
   },
   "animation-play-state:paused": {
-    "prefix": "janimps:p",
+    "prefix": "animps:p.",
     "body": "animationPlayState: 'paused',"
   },
   "animation-play-state:running": {
-    "prefix": "janimps:r",
+    "prefix": "animps:r.",
     "body": "animationPlayState: 'running',"
   },
   "animation-timing-function:${1:linear}": {
-    "prefix": "janimtf",
+    "prefix": "animtf.",
     "body": "animationTimingFunction: '${1:linear}',"
   },
   "animation-timing-function:ease": {
-    "prefix": "janimtf:e",
+    "prefix": "animtf:e.",
     "body": "animationTimingFunction: 'ease',"
   },
   "animation-timing-function:ease-in": {
-    "prefix": "janimtf:ei",
+    "prefix": "animtf:ei.",
     "body": "animationTimingFunction: 'ease-in',"
   },
   "animation-timing-function:ease-out": {
-    "prefix": "janimtf:eo",
+    "prefix": "animtf:eo.",
     "body": "animationTimingFunction: 'ease-out',"
   },
   "animation-timing-function:ease-in-out": {
-    "prefix": "janimtf:eio",
+    "prefix": "animtf:eio.",
     "body": "animationTimingFunction: 'ease-in-out',"
   },
   "animation-timing-function:linear": {
-    "prefix": "janimtf:l",
+    "prefix": "animtf:l.",
     "body": "animationTimingFunction: 'linear',"
   },
   "animation-timing-function:cubic-bezier(${1:0.1}, ${2:0.7}, ${3:1.0}, ${3:0.1})": {
-    "prefix": "janimtf:cb",
+    "prefix": "animtf:cb.",
     "body": "animationTimingFunction: 'cubic-bezier(${1:0.1}, ${2:0.7}, ${3:1.0}, ${3:0.1})',"
   },
   "appearance:${none}": {
