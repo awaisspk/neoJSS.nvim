@@ -1,3 +1,5 @@
+<!-- 1003 -->
+
 # JSS snippets for VS Code
 
 [JSS](http://cssinjs.org/) Emmet like snippets for Visual Studio Code in JavaScript file.

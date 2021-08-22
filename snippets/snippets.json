@@ -104,903 +104,903 @@
     "body": "animationTimingFunction: 'cubic-bezier(${1:0.1}, ${2:0.7}, ${3:1.0}, ${3:0.1})',"
   },
   "appearance:${none}": {
-    "prefix": "jap",
+    "prefix": "ap.",
     "body": "appearance: '${none}',"
   },
   "!important": {
-    "prefix": "j!",
+    "prefix": "!.",
     "body": "!important"
   },
   "position:${1:relative}": {
-    "prefix": "jpos",
+    "prefix": "pos.",
     "body": "position: '${1:relative}',"
   },
   "position:static": {
-    "prefix": "jpos:s",
+    "prefix": "pos:s.",
     "body": "position: 'static',"
   },
   "position:absolute": {
-    "prefix": "jpos:a",
+    "prefix": "pos:a.",
     "body": "position: 'absolute',"
   },
   "position:relative": {
-    "prefix": "jpos:r",
+    "prefix": "pos:r.",
     "body": "position: 'relative',"
   },
   "position:fixed": {
-    "prefix": "jpos:f",
+    "prefix": "pos:f.",
     "body": "position: 'fixed',"
   },
   "top:|": {
-    "prefix": "jt",
+    "prefix": "t.",
     "body": "top: '$0',"
   },
   "top:auto": {
-    "prefix": "jt:a",
+    "prefix": "t:a.",
     "body": "top: 'auto',"
   },
   "right:|": {
-    "prefix": "jr",
+    "prefix": "r.",
     "body": "right: '$0',"
   },
   "right:auto": {
-    "prefix": "jr:a",
+    "prefix": "r:a.",
     "body": "right: 'auto',"
   },
   "bottom:|": {
-    "prefix": "jb",
+    "prefix": "b.",
     "body": "bottom: '$0',"
   },
   "bottom:auto": {
-    "prefix": "jb:a",
+    "prefix": "b:a.",
     "body": "bottom: 'auto',"
   },
   "left:|": {
-    "prefix": "jl",
+    "prefix": "l.",
     "body": "left: '$0',"
   },
   "left:auto": {
-    "prefix": "jl:a",
+    "prefix": "l:a.",
     "body": "left: 'auto',"
   },
   "z-index:|": {
-    "prefix": "jz",
+    "prefix": "z.",
     "body": "zIndex: '$0',"
   },
   "z-index:auto": {
-    "prefix": "jz:a",
+    "prefix": "z:a.",
     "body": "zIndex: 'auto',"
   },
   "float:${1:left}": {
-    "prefix": "jfl",
+    "prefix": "fl.",
     "body": "float: '${1:left}',"
   },
   "float:none": {
-    "prefix": "jfl:n",
+    "prefix": "fl:n.",
     "body": "float: 'none',"
   },
   "float:left": {
-    "prefix": "jfl:l",
+    "prefix": "fl:l.",
     "body": "float: 'left',"
   },
   "float:right": {
-    "prefix": "jfl:r",
+    "prefix": "fl:r.",
     "body": "float: 'right',"
   },
   "clear:${1:both}": {
-    "prefix": "jcl",
+    "prefix": "cl.",
     "body": "clear: '${1:both}',"
   },
   "clear:none": {
-    "prefix": "jcl:n",
+    "prefix": "cl:n.",
     "body": "clear: 'none',"
   },
   "clear:left": {
-    "prefix": "jcl:l",
+    "prefix": "cl:l.",
     "body": "clear: 'left',"
   },
   "clear:right": {
-    "prefix": "jcl:r",
+    "prefix": "cl:r.",
     "body": "clear: 'right',"
   },
   "clear:both": {
-    "prefix": "jcl:b",
+    "prefix": "cl:b.",
     "body": "clear: 'both',"
   },
   "columns:|": {
-    "prefix": "jcolm",
+    "prefix": "colm.",
     "body": "columns: '$0',"
   },
   "column-count:|": {
-    "prefix": "jcolmc",
+    "prefix": "colmc.",
     "body": "columnCount: '$0',"
   },
   "column-fill:|": {
-    "prefix": "jcolmf",
+    "prefix": "colmf.",
     "body": "columnFill: '$0',"
   },
   "column-gap:|": {
-    "prefix": "jcolmg",
+    "prefix": "colmg.",
     "body": "columnGap: '$0',"
   },
   "column-rule:|": {
-    "prefix": "jcolmr",
+    "prefix": "colmr.",
     "body": "columnRule: '$0',"
   },
   "column-rule-color:|": {
-    "prefix": "jcolmrc",
+    "prefix": "colmrc.",
     "body": "columnRuleColor: '$0',"
   },
   "column-rule-style:|": {
-    "prefix": "jcolmrs",
+    "prefix": "colmrs.",
     "body": "columnRuleStyle: '$0',"
   },
   "column-rule-width:|": {
-    "prefix": "jcolmrw",
+    "prefix": "colmrw.",
     "body": "columnRuleWidth: '$0',"
   },
   "column-span:|": {
-    "prefix": "jcolms",
+    "prefix": "colms.",
     "body": "columnSpan: '$0',"
   },
   "column-width:|": {
-    "prefix": "jcolmw",
+    "prefix": "colmw.",
     "body": "columnWidth: '$0',"
   },
   "display:${1:block}": {
-    "prefix": "jd",
+    "prefix": "d.",
     "body": "display: '${1:block}',"
   },
   "display:none": {
-    "prefix": "jd:n",
+    "prefix": "d:n.",
     "body": "display: 'none',"
   },
   "display:block": {
-    "prefix": "jd:b",
+    "prefix": "d:b.",
     "body": "display: 'block',"
   },
   "display:flex": {
-    "prefix": "jd:f",
+    "prefix": "d:f.",
     "body": "display: 'flex',"
   },
   "display:inline-flex": {
-    "prefix": "jd:if",
+    "prefix": "d:if.",
     "body": "display: 'inline-flex',"
   },
   "display:inline": {
-    "prefix": "jd:i",
+    "prefix": "d:i.",
     "body": "display: 'inline',"
   },
   "display:inline-block": {
-    "prefix": "jd:ib",
+    "prefix": "d:ib.",
     "body": "display: 'inline-block',"
   },
   "display: inline-block\n*display: inline;\n*zoom: 1;": {
-    "prefix": "jd:ib+",
+    "prefix": "d:ib+.",
     "body": "display:  inline-block\n*display: inline;\n*zoom:' 1;',"
   },
   "display:list-item": {
-    "prefix": "jd:li",
+    "prefix": "d:li.",
     "body": "display: 'list-item',"
   },
   "display:run-in": {
-    "prefix": "jd:ri",
+    "prefix": "d:ri.",
     "body": "display: 'run-in',"
   },
   "display:compact": {
-    "prefix": "jd:cp",
+    "prefix": "d:cp.",
     "body": "display: 'compact',"
   },
   "display:table": {
-    "prefix": "jd:tb",
+    "prefix": "d:tb.",
     "body": "display: 'table',"
   },
   "display:inline-table": {
-    "prefix": "jd:itb",
+    "prefix": "d:itb.",
     "body": "display: 'inline-table',"
   },
   "display:table-caption": {
-    "prefix": "jd:tbcp",
+    "prefix": "d:tbcp.",
     "body": "display: 'table-caption',"
   },
   "display:table-column": {
-    "prefix": "jd:tbcl",
+    "prefix": "d:tbcl.",
     "body": "display: 'table-column',"
   },
   "display:table-column-group": {
-    "prefix": "jd:tbclg",
+    "prefix": "d:tbclg.",
     "body": "display: 'table-column-group',"
   },
   "display:table-header-group": {
-    "prefix": "jd:tbhg",
+    "prefix": "d:tbhg.",
     "body": "display: 'table-header-group',"
   },
   "display:table-footer-group": {
-    "prefix": "jd:tbfg",
+    "prefix": "d:tbfg.",
     "body": "display: 'table-footer-group',"
   },
   "display:table-row": {
-    "prefix": "jd:tbr",
+    "prefix": "d:tbr.",
     "body": "display: 'table-row',"
   },
   "display:table-row-group": {
-    "prefix": "jd:tbrg",
+    "prefix": "d:tbrg.",
     "body": "display: 'table-row-group',"
   },
   "display:table-cell": {
-    "prefix": "jd:tbc",
+    "prefix": "d:tbc.",
     "body": "display: 'table-cell',"
   },
   "display:ruby": {
-    "prefix": "jd:rb",
+    "prefix": "d:rb.",
     "body": "display: 'ruby',"
   },
   "display:ruby-base": {
-    "prefix": "jd:rbb",
+    "prefix": "d:rbb.",
     "body": "display: 'ruby-base',"
   },
   "display:ruby-base-group": {
-    "prefix": "jd:rbbg",
+    "prefix": "d:rbbg.",
     "body": "display: 'ruby-base-group',"
   },
   "display:ruby-text": {
-    "prefix": "jd:rbt",
+    "prefix": "d:rbt.",
     "body": "display: 'ruby-text',"
   },
   "display:ruby-text-group": {
-    "prefix": "jd:rbtg",
+    "prefix": "d:rbtg.",
     "body": "display: 'ruby-text-group',"
   },
   "visibility:${1:hidden}": {
-    "prefix": "jv",
+    "prefix": "v.",
     "body": "visibility: '${1:hidden}',"
   },
   "visibility:visible": {
-    "prefix": "jv:v",
+    "prefix": "v:v.",
     "body": "visibility: 'visible',"
   },
   "visibility:hidden": {
-    "prefix": "jv:h",
+    "prefix": "v:h.",
     "body": "visibility: 'hidden',"
   },
   "visibility:collapse": {
-    "prefix": "jv:c",
+    "prefix": "v:c.",
     "body": "visibility: 'collapse',"
   },
   "overflow:${1:hidden}": {
-    "prefix": "jov",
+    "prefix": "ov.",
     "body": "overflow: '${1:hidden}',"
   },
   "overflow:visible": {
-    "prefix": "jov:v",
+    "prefix": "ov:v.",
     "body": "overflow: 'visible',"
   },
   "overflow:hidden": {
-    "prefix": "jov:h",
+    "prefix": "ov:h.",
     "body": "overflow: 'hidden',"
   },
   "overflow:scroll": {
-    "prefix": "jov:s",
+    "prefix": "ov:s.",
     "body": "overflow: 'scroll',"
   },
   "overflow:auto": {
-    "prefix": "jov:a",
+    "prefix": "ov:a.",
     "body": "overflow: 'auto',"
   },
   "overflow-x:${1:hidden}": {
-    "prefix": "jovx",
+    "prefix": "ovx.",
     "body": "overflowX: '${1:hidden}',"
   },
   "overflow-x:visible": {
-    "prefix": "jovx:v",
+    "prefix": "ovx:v.",
     "body": "overflowX: 'visible',"
   },
   "overflow-x:hidden": {
-    "prefix": "jovx:h",
+    "prefix": "ovx:h.",
     "body": "overflowX: 'hidden',"
   },
   "overflow-x:scroll": {
-    "prefix": "jovx:s",
+    "prefix": "ovx:s.",
     "body": "overflowX: 'scroll',"
   },
   "overflow-x:auto": {
-    "prefix": "jovx:a",
+    "prefix": "ovx:a.",
     "body": "overflowX: 'auto',"
   },
   "overflow-y:${1:hidden}": {
-    "prefix": "jovy",
+    "prefix": "ovy.",
     "body": "overflowY: '${1:hidden}',"
   },
   "overflow-y:visible": {
-    "prefix": "jovy:v",
+    "prefix": "ovy:v.",
     "body": "overflowY: 'visible',"
   },
   "overflow-y:hidden": {
-    "prefix": "jovy:h",
+    "prefix": "ovy:h.",
     "body": "overflowY: 'hidden',"
   },
   "overflow-y:scroll": {
-    "prefix": "jovy:s",
+    "prefix": "ovy:s.",
     "body": "overflowY: 'scroll',"
   },
   "overflow-y:auto": {
-    "prefix": "jovy:a",
+    "prefix": "ovy:a.",
     "body": "overflowY: 'auto',"
   },
   "overflow-style:${1:scrollbar}": {
-    "prefix": "jovs",
+    "prefix": "ovs.",
     "body": "overflowStyle: '${1:scrollbar}',"
   },
   "overflow-style:auto": {
-    "prefix": "jovs:a",
+    "prefix": "ovs:a.",
     "body": "overflowStyle: 'auto',"
   },
   "overflow-style:scrollbar": {
-    "prefix": "jovs:s",
+    "prefix": "ovs:s.",
     "body": "overflowStyle: 'scrollbar',"
   },
   "overflow-style:panner": {
-    "prefix": "jovs:p",
+    "prefix": "ovs:p.",
     "body": "overflowStyle: 'panner',"
   },
   "overflow-style:move": {
-    "prefix": "jovs:m",
+    "prefix": "ovs:m.",
     "body": "overflowStyle: 'move',"
   },
   "overflow-style:marquee": {
-    "prefix": "jovs:mq",
+    "prefix": "ovs:mq.",
     "body": "overflowStyle: 'marquee',"
   },
   "zoom:1": {
-    "prefix": "jzm",
+    "prefix": "zm.",
     "body": "zoom: '1',"
   },
   "clip:|": {
-    "prefix": "jcp",
+    "prefix": "cp.",
     "body": "clip: '$0',"
   },
   "clip:auto": {
-    "prefix": "jcp:a",
+    "prefix": "cp:a.",
     "body": "clip: 'auto',"
   },
   "clip:rect(${1:top} ${2:right} ${3:bottom} ${4:left})": {
-    "prefix": "jcp:r",
+    "prefix": "cp:r.",
     "body": "clip: 'rect(${1:top} ${2:right} ${3:bottom} ${4:left})',"
   },
   "box-sizing:${1:border-box}": {
-    "prefix": "jbxz",
+    "prefix": "bxz.",
     "body": "boxSizing: '${1:border-box}',"
   },
   "box-sizing:content-box": {
-    "prefix": "jbxz:cb",
+    "prefix": "bxz:cb.",
     "body": "boxSizing: 'content-box',"
   },
   "box-sizing:border-box": {
-    "prefix": "jbxz:bb",
+    "prefix": "bxz:bb.",
     "body": "boxSizing: 'border-box',"
   },
   "box-shadow:${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color}": {
-    "prefix": "jbxsh",
+    "prefix": "bxsh.",
     "body": "boxShadow: '${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:color}',"
   },
   "box-shadow:${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:spread }rgb(${6:0}, ${7:0}, ${8:0})": {
-    "prefix": "jbxsh:r",
+    "prefix": "bxsh:r.",
     "body": "boxShadow: '${1:inset }${2:hoff} ${3:voff} ${4:blur} ${5:spread }rgb(${6:0}, ${7:0}, ${8:0})',"
   },
   "box-shadow:${1:inset }${2:h} ${3:v} ${4:blur} ${5:spread }rgba(${6:0}, ${7:0}, ${8:0}, .${9:5})": {
-    "prefix": "jbxsh:ra",
+    "prefix": "bxsh:ra.",
     "body": "boxShadow: '${1:inset }${2:h} ${3:v} ${4:blur} ${5:spread }rgba(${6:0}, ${7:0}, ${8:0}, .${9:5})',"
   },
   "box-shadow:none": {
-    "prefix": "jbxsh:n",
+    "prefix": "bxsh:n.",
     "body": "boxShadow: 'none',"
   },
   "margin:|": {
-    "prefix": "jm",
+    "prefix": "m.",
     "body": "margin: '$0',"
   },
   "margin:auto": {
-    "prefix": "jm:a",
+    "prefix": "m:a.",
     "body": "margin: 'auto',"
   },
   "margin-top:|": {
-    "prefix": "jmt",
+    "prefix": "mt.",
     "body": "marginTop: '$0',"
   },
   "margin-top:auto": {
-    "prefix": "jmt:a",
+    "prefix": "mt:a.",
     "body": "marginTop: 'auto',"
   },
   "margin-right:|": {
-    "prefix": "jmr",
+    "prefix": "mr.",
     "body": "marginRight: '$0',"
   },
   "margin-right:auto": {
-    "prefix": "jmr:a",
+    "prefix": "mr:a.",
     "body": "marginRight: 'auto',"
   },
   "margin-bottom:|": {
-    "prefix": "jmb",
+    "prefix": "mb.",
     "body": "marginBottom: '$0',"
   },
   "margin-bottom:auto": {
-    "prefix": "jmb:a",
+    "prefix": "mb:a.",
     "body": "marginBottom: 'auto',"
   },
   "margin-left:|": {
-    "prefix": "jml",
+    "prefix": "ml.",
     "body": "marginLeft: '$0',"
   },
   "margin-left:auto": {
-    "prefix": "jml:a",
+    "prefix": "ml:a.",
     "body": "marginLeft: 'auto'"
   },
   "padding:|": {
-    "prefix": "jp",
+    "prefix": "p.",
     "body": "padding: '$0',"
   },
   "padding-top:|": {
-    "prefix": "jpt",
+    "prefix": "pt.",
     "body": "paddingTop: '$0',"
   },
   "padding-right:|": {
-    "prefix": "jpr",
+    "prefix": "pr.",
     "body": "paddingRight: '$0',"
   },
   "padding-bottom:|": {
-    "prefix": "jpb",
+    "prefix": "pb.",
     "body": "paddingBottom: '$0',"
   },
   "padding-left:|": {
-    "prefix": "jpl",
+    "prefix": "pl.",
     "body": "paddingLeft: '$0',"
   },
   "width:|": {
-    "prefix": "jw",
+    "prefix": "w.",
     "body": "width: '$0',"
   },
   "width:auto": {
-    "prefix": "jw:a",
+    "prefix": "w:a.",
     "body": "width: 'auto',"
   },
   "height:|": {
-    "prefix": "jh",
+    "prefix": "h.",
     "body": "height: '$0',"
   },
   "height:auto": {
-    "prefix": "jh:a",
+    "prefix": "h:a.",
     "body": "height: 'auto',"
   },
   "max-width:|": {
-    "prefix": "jmaw",
+    "prefix": "maw.",
     "body": "maxWidth: '$0',"
   },
   "max-width:none": {
-    "prefix": "jmaw:n",
+    "prefix": "maw:n.",
     "body": "maxWidth: 'none',"
   },
   "max-height:|": {
-    "prefix": "jmah",
+    "prefix": "mah.",
     "body": "maxHeight: '$0',"
   },
   "max-height:none": {
-    "prefix": "jmah:n",
+    "prefix": "mah:n.",
     "body": "maxHeight: 'none',"
   },
   "min-width:|": {
-    "prefix": "jmiw",
+    "prefix": "miw.",
     "body": "minWidth: '$0',"
   },
   "min-height:|": {
-    "prefix": "jmih",
+    "prefix": "mih.",
     "body": "minHeight: '$0',"
   },
   "max-resolution:${1:res}": {
-    "prefix": "jmar",
+    "prefix": "mar.",
     "body": "maxResolution: '${1:res}',"
   },
   "min-resolution:${1:res}": {
-    "prefix": "jmir",
+    "prefix": "mir.",
     "body": "minResolution: '${1:res}',"
   },
   "orientation:|": {
-    "prefix": "jori",
+    "prefix": "ori.",
     "body": "orientation: '$0',"
   },
   "orientation:landscape": {
-    "prefix": "jori:l",
+    "prefix": "ori:l.",
     "body": "orientation: 'landscape',"
   },
   "orientation:portrait": {
-    "prefix": "jori:p",
+    "prefix": "ori:p.",
     "body": "orientation: 'portrait',"
   },
   "outline:|": {
-    "prefix": "jol",
+    "prefix": "ol.",
     "body": "outline: '$0',"
   },
   "outline:none": {
-    "prefix": "jol:n",
+    "prefix": "ol:n.",
     "body": "outline: 'none',"
   },
   "outline-offset:|": {
-    "prefix": "jolo",
+    "prefix": "olo.",
     "body": "outlineOffset: '$0',"
   },
   "outline-width:|": {
-    "prefix": "jolw",
+    "prefix": "olw.",
     "body": "outlineWidth: '$0',"
   },
   "outline-width:thin": {
-    "prefix": "jolw:tn",
+    "prefix": "olw:tn.",
     "body": "outlineWidth: 'thin',"
   },
   "outline-width:medium": {
-    "prefix": "jolw:m",
+    "prefix": "olw:m.",
     "body": "outlineWidth: 'medium',"
   },
   "outline-width:thick": {
-    "prefix": "jolw:tc",
+    "prefix": "olw:tc.",
     "body": "outlineWidth: 'thick',"
   },
   "outline-style:|": {
-    "prefix": "jols",
+    "prefix": "ols.",
     "body": "outlineStyle: '$0',"
   },
   "outline-style:none": {
-    "prefix": "jols:n",
+    "prefix": "ols:n.",
     "body": "outlineStyle: 'none',"
   },
   "outline-style:dotted": {
-    "prefix": "jols:dt",
+    "prefix": "ols:dt.",
     "body": "outlineStyle: 'dotted',"
   },
   "outline-style:dashed": {
-    "prefix": "jols:ds",
+    "prefix": "ols:ds.",
     "body": "outlineStyle: 'dashed',"
   },
   "outline-style:solid": {
-    "prefix": "jols:s",
+    "prefix": "ols:s.",
     "body": "outlineStyle: 'solid',"
   },
   "outline-style:double": {
-    "prefix": "jols:db",
+    "prefix": "ols:db.",
     "body": "outlineStyle: 'double',"
   },
   "outline-style:groove": {
-    "prefix": "jols:g",
+    "prefix": "ols:g.",
     "body": "outlineStyle: 'groove',"
   },
   "outline-style:ridge": {
-    "prefix": "jols:r",
+    "prefix": "ols:r.",
     "body": "outlineStyle: 'ridge'"
   },
   "outline-style:inset": {
-    "prefix": "jols:i",
+    "prefix": "ols:i.",
     "body": "outlineStyle: 'inset',"
   },
   "outline-style:outset": {
-    "prefix": "jols:o",
+    "prefix": "ols:o.",
     "body": "outlineStyle: 'outset',"
   },
   "outline-color:#${1:000}": {
-    "prefix": "jolc",
+    "prefix": "olc.",
     "body": "outlineColor: '#${1:000}',"
   },
   "outline-color:invert": {
-    "prefix": "jolc:i",
+    "prefix": "olc:i.",
     "body": "outlineColor: 'invert',"
   },
   "backface-visibility:|": {
-    "prefix": "jbfv",
+    "prefix": "bfv.",
     "body": "backfaceVisibility: '$0',"
   },
   "backface-visibility:hidden": {
-    "prefix": "jbfv:h",
+    "prefix": "bfv:h.",
     "body": "backfaceVisibility: 'hidden',"
   },
   "backface-visibility:visible": {
-    "prefix": "jbfv:v",
+    "prefix": "bfv:v.",
     "body": "backfaceVisibility: 'visible',"
   },
   "border:|": {
-    "prefix": "jbd",
+    "prefix": "bd.",
     "body": "border: '$0',"
   },
   "border:${1:1px} ${2:solid} ${3:#000}": {
-    "prefix": "jbd+",
+    "prefix": "bd+.",
     "body": "border: '${1:1px} ${2:solid} ${3:#000}',"
   },
   "border:none": {
-    "prefix": "jbd:n",
+    "prefix": "bd:n.",
     "body": "border: 'none',"
   },
   "border-break:${1:close}": {
-    "prefix": "jbdbk",
+    "prefix": "bdbk.",
     "body": "borderBreak: '${1:close}',"
   },
   "border-break:close": {
-    "prefix": "jbdbk:c",
+    "prefix": "bdbk:c.",
     "body": "borderBreak: 'close',"
   },
   "border-collapse:|": {
-    "prefix": "jbdcl",
+    "prefix": "bdcl.",
     "body": "borderCollapse: '$0',"
   },
   "border-collapse:collapse": {
-    "prefix": "jbdcl:c",
+    "prefix": "bdcl:c.",
     "body": "borderCollapse: 'collapse',"
   },
   "border-collapse:separate": {
-    "prefix": "jbdcl:s",
+    "prefix": "bdcl:s.",
     "body": "borderCollapse: 'separate',"
   },
   "border-color:#${1:000}": {
-    "prefix": "jbdc",
+    "prefix": "bdc.",
     "body": "borderColor: '#${1:000}',"
   },
   "border-color:transparent": {
-    "prefix": "jbdc:t",
+    "prefix": "bdc:t.",
     "body": "borderColor: 'transparent',"
   },
   "border-image:url(|)": {
-    "prefix": "jbdi",
+    "prefix": "bdi.",
     "body": "borderImage: 'url($0)',"
   },
   "border-image:none": {
-    "prefix": "jbdi:n",
+    "prefix": "bdi:n.",
     "body": "borderImage: 'none',"
   },
   "border-top-image:url(|)": {
-    "prefix": "jbdti",
+    "prefix": "bdti.",
     "body": "borderTopImage: 'url($0)',"
   },
   "border-top-image:none": {
-    "prefix": "jbdti:n",
+    "prefix": "bdti:n.",
     "body": "borderTopImage: 'none',"
   },
   "border-right-image:url(|)": {
-    "prefix": "jbdri",
+    "prefix": "bdri.",
     "body": "borderRightImage: 'url($0)',"
   },
   "border-right-image:none": {
-    "prefix": "jbdri:n",
+    "prefix": "bdri:n.",
     "body": "borderRightImage: 'none',"
   },
   "border-bottom-image:url(|)": {
-    "prefix": "jbdbi",
+    "prefix": "bdbi.",
     "body": "borderBottomImage: 'url($0)',"
   },
   "border-bottom-image:none": {
-    "prefix": "jbdbi:n",
+    "prefix": "bdbi:n.",
     "body": "borderBottomImage: 'none',"
   },
   "border-left-image:url(|)": {
-    "prefix": "jbdli",
+    "prefix": "bdli.",
     "body": "borderLeftImage: 'url($0)',"
   },
   "border-left-image:none": {
-    "prefix": "jbdli:n",
+    "prefix": "bdli:n.",
     "body": "borderLeftImage: 'none',"
   },
   "border-corner-image:url(|)": {
-    "prefix": "jbdci",
+    "prefix": "bdci.",
     "body": "borderCornerImage: 'url($0)',"
   },
   "border-corner-image:none": {
-    "prefix": "jbdci:n",
+    "prefix": "bdci:n.",
     "body": "borderCornerImage: 'none',"
   },
   "border-corner-image:continue": {
-    "prefix": "jbdci:c",
+    "prefix": "bdci:c.",
     "body": "borderCornerImage: 'continue',"
   },
   "border-top-left-image:url(|)": {
-    "prefix": "jbdtli",
+    "prefix": "bdtli.",
     "body": "borderTopLeftImage: 'url($0)',"
   },
   "border-top-left-image:none": {
-    "prefix": "jbdtli:n",
+    "prefix": "bdtli:n.",
     "body": "borderTopLeftImage: 'none',"
   },
   "border-top-left-image:continue": {
-    "prefix": "jbdtli:c",
+    "prefix": "bdtli:c.",
     "body": "borderTopLeftImage: 'continue',"
   },
   "border-top-right-image:url(|)": {
-    "prefix": "jbdtri",
+    "prefix": "bdtri.",
     "body": "borderTopRightImage: 'url($0)',"
   },
   "border-top-right-image:none": {
-    "prefix": "jbdtri:n",
+    "prefix": "bdtri:n.",
     "body": "borderTopRightImage: 'none',"
   },
   "border-top-right-image:continue": {
-    "prefix": "jbdtri:c",
+    "prefix": "bdtri:c.",
     "body": "borderTopRightImage: 'continue',"
   },
   "border-bottom-right-image:url(|)": {
-    "prefix": "jbdbri",
+    "prefix": "bdbri.",
     "body": "borderBottomRightImage: 'url($0)',"
   },
   "border-bottom-right-image:none": {
-    "prefix": "jbdbri:n",
+    "prefix": "bdbri:n.",
     "body": "borderBottomRightImage: 'none',"
   },
   "border-bottom-right-image:continue": {
-    "prefix": "jbdbri:c",
+    "prefix": "bdbri:c.",
     "body": "borderBottomRightImage: 'continue',"
   },
   "border-bottom-left-image:url(|)": {
-    "prefix": "jbdbli",
+    "prefix": "bdbli.",
     "body": "borderBottomLeftImage: 'url($0)',"
   },
   "border-bottom-left-image:none": {
-    "prefix": "jbdbli:n",
+    "prefix": "bdbli:n.",
     "body": "borderBottomLeftImage: 'none',"
   },
   "border-bottom-left-image:continue": {
-    "prefix": "jbdbli:c",
+    "prefix": "bdbli:c.",
     "body": "borderBottomLeftImage: 'continue',"
   },
   "border-fit:${1:repeat}": {
-    "prefix": "jbdf",
+    "prefix": "bdf.",
     "body": "borderFit: '${1:repeat}',"
   },
   "border-fit:clip": {
-    "prefix": "jbdf:c",
+    "prefix": "bdf:c.",
     "body": "borderFit: 'clip',"
   },
   "border-fit:repeat": {
-    "prefix": "jbdf:r",
+    "prefix": "bdf:r.",
     "body": "borderFit: 'repeat',"
   },
   "border-fit:scale": {
-    "prefix": "jbdf:sc",
+    "prefix": "bdf:sc.",
     "body": "borderFit: 'scale',"
   },
   "border-fit:stretch": {
-    "prefix": "jbdf:st",
+    "prefix": "bdf:st.",
     "body": "borderFit: 'stretch',"
   },
   "border-fit:overwrite": {
-    "prefix": "jbdf:ow",
+    "prefix": "bdf:ow.",
     "body": "borderFit: 'overwrite',"
   },
   "border-fit:overflow": {
-    "prefix": "jbdf:of",
+    "prefix": "bdf:of.",
     "body": "borderFit: 'overflow',"
   },
   "border-fit:space": {
-    "prefix": "jbdf:sp",
+    "prefix": "bdf:sp.",
     "body": "borderFit: 'space',"
   },
   "border-length:|": {
-    "prefix": "jbdlen",
+    "prefix": "bdlen.",
     "body": "borderLength: '$0',"
   },
   "border-length:auto": {
-    "prefix": "jbdlen:a",
+    "prefix": "bdlen:a.",
     "body": "borderLength: 'auto',"
   },
   "border-spacing:|": {
-    "prefix": "jbdsp",
+    "prefix": "bdsp.",
     "body": "borderSpacing: '$0',"
   },
   "border-style:|": {
-    "prefix": "jbds",
+    "prefix": "bds.",
     "body": "borderStyle: '$0',"
   },
   "border-style:none": {
-    "prefix": "jbds:n",
+    "prefix": "bds:n.",
     "body": "borderStyle: 'none',"
   },
   "border-style:hidden": {
-    "prefix": "jbds:h",
+    "prefix": "bds:h.",
     "body": "borderStyle: 'hidden',"
   },
   "border-style:dotted": {
-    "prefix": "jbds:dt",
+    "prefix": "bds:dt.",
     "body": "borderStyle: 'dotted',"
   },
   "border-style:dashed": {
-    "prefix": "jbds:ds",
+    "prefix": "bds:ds.",
     "body": "borderStyle: 'dashed',"
   },
   "border-style:solid": {
-    "prefix": "jbds:s",
+    "prefix": "bds:s.",
     "body": "borderStyle: 'solid',"
   },
   "border-style:double": {
-    "prefix": "jbds:db",
+    "prefix": "bds:db.",
     "body": "borderStyle: 'double',"
   },
   "border-style:dot-dash": {
-    "prefix": "jbds:dtds",
+    "prefix": "bds:dtds.",
     "body": "borderStyle: 'dot-dash',"
   },
   "border-style:dot-dot-dash": {
-    "prefix": "jbds:dtdtds",
+    "prefix": "bds:dtdtds.",
     "body": "borderStyle: 'dot-dot-dash',"
   },
   "border-style:wave": {
-    "prefix": "jbds:w",
+    "prefix": "bds:w.",
     "body": "borderStyle: 'wave',"
   },
   "border-style:groove": {
-    "prefix": "jbds:g",
+    "prefix": "bds:g.",
     "body": "borderStyle: 'groove',"
   },
   "border-style:ridge": {
-    "prefix": "jbds:r",
+    "prefix": "bds:r.",
     "body": "borderStyle: 'ridge',"
   },
   "border-style:inset": {
-    "prefix": "jbds:i",
+    "prefix": "bds:i.",
     "body": "borderStyle: 'inset',"
   },
   "border-style:outset": {
-    "prefix": "jbds:o",
+    "prefix": "bds:o.",
     "body": "borderStyle: 'outset',"
   },
   "border-width:|": {
-    "prefix": "jbdw",
+    "prefix": "bdw.",
     "body": "borderWidth: '$0',"
   },
   "border-top-width:|": {
-    "prefix": "jbdtw",
+    "prefix": "bdtw.",
     "body": "borderTopWidth: '$0',"
   },
   "border-right-width:|": {
-    "prefix": "jbdrw",
+    "prefix": "bdrw.",
     "body": "borderRightWidth: '$0',"
   },
   "border-bottom-width:|": {
-    "prefix": "jbdbw",
+    "prefix": "bdbw.",
     "body": "borderBottomWidth: '$0',"
   },
   "border-left-width:|": {
-    "prefix": "jbdlw",
+    "prefix": "bdlw.",
     "body": "borderLeftWidth: '$0',"
   },
   "border-top:|": {
-    "prefix": "jbt",
+    "prefix": "bt.",
     "body": "borderTop: '$0',"
   },
   "border-top:${1:1px} ${2:solid} ${3:#000}": {
-    "prefix": "jbdt+",
+    "prefix": "bdt+.",
     "body": "borderTop: '${1:1px} ${2:solid} ${3:#000}',"
   },
   "border-top:none": {
-    "prefix": "jbdt:n",
+    "prefix": "bdt:n.",
     "body": "borderTop: 'none',"
   },
   "border-top-style:|": {
-    "prefix": "jbdts",
+    "prefix": "bdts.",
     "body": "borderTopStyle: '$0',"
   },
   "border-top-style:none": {
-    "prefix": "jbdts:n",
+    "prefix": "bdts:n.",
     "body": "borderTopStyle: 'none',"
   },
   "border-top-color:#${1:000}": {
-    "prefix": "jbdtc",
+    "prefix": "bdtc.",
     "body": "borderTopColor: '#${1:000}',"
   },
   "border-top-color:transparent": {
-    "prefix": "jbdtc:t",
+    "prefix": "bdtc:t.",
     "body": "borderTopColor: 'transparent',"
   },
   "border-right:|": {
-    "prefix": "jbr",
+    "prefix": "br.",
     "body": "borderRight: '$0',"
   },
   "border-right:${1:1px} ${2:solid} ${3:#000}": {
-    "prefix": "jbdr+",
+    "prefix": "bdr+.",
     "body": "borderRight: '${1:1px} ${2:solid} ${3:#000}',"
   },
   "border-right:none": {
-    "prefix": "jbdr:n",
+    "prefix": "bdr:n.",
     "body": "borderRight: 'none',"
   },
   "border-right-style:|": {
