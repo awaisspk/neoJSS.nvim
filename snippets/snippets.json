@@ -1004,1579 +1004,1579 @@
     "body": "borderRight: 'none',"
   },
   "border-right-style:|": {
-    "prefix": "jbdrst",
+    "prefix": "bdrst.",
     "body": "borderRightStyle: '$0',"
   },
   "border-right-style:none": {
-    "prefix": "jbdrst:n",
+    "prefix": "bdrst:n.",
     "body": "borderRightStyle: 'none',"
   },
   "border-right-color:#${1:000}": {
-    "prefix": "jbdrc",
+    "prefix": "bdrc.",
     "body": "borderRightColor: '#${1:000}',"
   },
   "border-right-color:transparent": {
-    "prefix": "jbdrc:t",
+    "prefix": "bdrc:t.",
     "body": "borderRightColor: 'transparent',"
   },
   "border-bottom:|": {
-    "prefix": "jbb",
+    "prefix": "bb.",
     "body": "borderBottom: '$0',"
   },
   "border-bottom:${1:1px} ${2:solid} ${3:#000}": {
-    "prefix": "jbdb+",
+    "prefix": "bdb+.",
     "body": "borderBottom: '${1:1px} ${2:solid} ${3:#000}',"
   },
   "border-bottom:none": {
-    "prefix": "jbdb:n",
+    "prefix": "bdb:n.",
     "body": "borderBottom: 'none',"
   },
   "border-bottom-style:|": {
-    "prefix": "jbdbs",
+    "prefix": "bdbs.",
     "body": "borderBottomStyle: '$0',"
   },
   "border-bottom-style:none": {
-    "prefix": "jbdbs:n",
+    "prefix": "bdbs:n.",
     "body": "borderBottomStyle: 'none',"
   },
   "border-bottom-color:#${1:000}": {
-    "prefix": "jbdbc",
+    "prefix": "bdbc.",
     "body": "borderBottomColor: '#${1:000}',"
   },
   "border-bottom-color:transparent": {
-    "prefix": "jbdbc:t",
+    "prefix": "bdbc:t.",
     "body": "borderBottomColor: 'transparent',"
   },
   "border-left:|": {
-    "prefix": "jbl",
+    "prefix": "bl.",
     "body": "borderLeft: '$0',"
   },
   "border-left:${1:1px} ${2:solid} ${3:#000}": {
-    "prefix": "jbdl+",
+    "prefix": "bdl+.",
     "body": "borderLeft: '${1:1px} ${2:solid} ${3:#000}',"
   },
   "border-left:none": {
-    "prefix": "jbdl:n",
+    "prefix": "bdl:n.",
     "body": "borderLeft: 'none',"
   },
   "border-left-style:|": {
-    "prefix": "jbdls",
+    "prefix": "bdls.",
     "body": "borderLeftStyle: '$0',"
   },
   "border-left-style:none": {
-    "prefix": "jbdls:n",
+    "prefix": "bdls:n.",
     "body": "borderLeftStyle: 'none',"
   },
   "border-left-color:#${1:000}": {
-    "prefix": "jbdlc",
+    "prefix": "bdlc.",
     "body": "borderLeftColor: '#${1:000}',"
   },
   "border-left-color:transparent": {
-    "prefix": "jbdlc:t",
+    "prefix": "bdlc:t.",
     "body": "borderLeftColor: 'transparent',"
   },
   "border-radius:|": {
-    "prefix": "jbdrs",
+    "prefix": "bdrs.",
     "body": "borderRadius: '$0',"
   },
   "border-top-right-radius:|": {
-    "prefix": "jbdtrrs",
+    "prefix": "bdtrrs.",
     "body": "borderTopRightRadius: '$0',"
   },
   "border-top-left-radius:|": {
-    "prefix": "jbdtlrs",
+    "prefix": "bdtlrs.",
     "body": "borderTopLeftRadius: '$0',"
   },
   "border-bottom-right-radius:|": {
-    "prefix": "jbdbrrs",
+    "prefix": "bdbrrs.",
     "body": "borderBottomRightRadius: '$0',"
   },
   "border-bottom-left-radius:|": {
-    "prefix": "jbdblrs",
+    "prefix": "bdblrs.",
     "body": "borderBottomLeftRadius: '$0',"
   },
   "background:#${1:000}": {
-    "prefix": "jbg",
+    "prefix": "bg.",
     "body": "background: '#${1:000}',"
   },
   "background:${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat}": {
-    "prefix": "jbg+",
+    "prefix": "bg+.",
     "body": "background: '${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat}',"
   },
   "background:none": {
-    "prefix": "jbg:n",
+    "prefix": "bg:n.",
     "body": "background: 'none',"
   },
   "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='${1:x}.png',sizingMethod='${2:crop}')": {
-    "prefix": "jbg:ie",
+    "prefix": "bg:ie.",
     "body": "filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\\\"${1:x}.png\\\",sizingMethod=\\\"${2:crop}\\\")',"
   },
   "background-color:#${1:fff}": {
-    "prefix": "jbgc",
+    "prefix": "bgc.",
     "body": "backgroundColor: '#${1:fff}',"
   },
   "background-color:transparent": {
-    "prefix": "jbgc:t",
+    "prefix": "bgc:t.",
     "body": "backgroundColor: 'transparent',"
   },
   "background-image:url(|)": {
-    "prefix": "jbgi",
+    "prefix": "bgi.",
     "body": "backgroundImage: 'url($0)',"
   },
   "background-image:none": {
-    "prefix": "jbgi:n",
+    "prefix": "bgi:n.",
     "body": "backgroundImage: 'none',"
   },
   "background-repeat:|": {
-    "prefix": "jbgr",
+    "prefix": "bgr.",
     "body": "backgroundRepeat: '$0',"
   },
   "background-repeat:no-repeat": {
-    "prefix": "jbgr:n",
+    "prefix": "bgr:n.",
     "body": "backgroundRepeat: 'no-repeat',"
   },
   "background-repeat:repeat-x": {
-    "prefix": "jbgr:x",
+    "prefix": "bgr:x.",
     "body": "backgroundRepeat: 'repeat-x',"
   },
   "background-repeat:repeat-y": {
-    "prefix": "jbgr:y",
+    "prefix": "bgr:y.",
     "body": "backgroundRepeat: 'repeat-y',"
   },
   "background-repeat:space": {
-    "prefix": "jbgr:sp",
+    "prefix": "bgr:sp.",
     "body": "backgroundRepeat: 'space',"
   },
   "background-repeat:round": {
-    "prefix": "jbgr:rd",
+    "prefix": "bgr:rd.",
     "body": "backgroundRepeat: 'round',"
   },
   "background-attachment:|": {
-    "prefix": "jbga",
+    "prefix": "bga.",
     "body": "backgroundAttachment: '$0',"
   },
   "background-attachment:fixed": {
-    "prefix": "jbga:f",
+    "prefix": "bga:f.",
     "body": "backgroundAttachment: 'fixed',"
   },
   "background-attachment:scroll": {
-    "prefix": "jbga:s",
+    "prefix": "bga:s.",
     "body": "backgroundAttachment: 'scroll',"
   },
   "background-position:${1:0} ${2:0}": {
-    "prefix": "jbgp",
+    "prefix": "bgp.",
     "body": "backgroundPosition: '${1:0} ${2:0}',"
   },
   "background-position-x:|": {
-    "prefix": "jbgpx",
+    "prefix": "bgpx.",
     "body": "backgroundPositionX: '$0',"
   },
   "background-position-y:|": {
-    "prefix": "jbgpy",
+    "prefix": "bgpy.",
     "body": "backgroundPositionY: '$0',"
   },
   "background-break:|": {
-    "prefix": "jbgbk",
+    "prefix": "bgbk.",
     "body": "backgroundBreak: '$0',"
   },
   "background-break:bounding-box": {
-    "prefix": "jbgbk:bb",
+    "prefix": "bgbk:bb.",
     "body": "backgroundBreak: 'bounding-box',"
   },
   "background-break:each-box": {
-    "prefix": "jbgbk:eb",
+    "prefix": "bgbk:eb.",
     "body": "backgroundBreak: 'each-box',"
   },
   "background-break:continuous": {
-    "prefix": "jbgbk:c",
+    "prefix": "bgbk:c.",
     "body": "backgroundBreak: 'continuous',"
   },
   "background-clip:${1:padding-box}": {
-    "prefix": "jbgcp",
+    "prefix": "bgcp.",
     "body": "backgroundClip: '${1:padding-box}',"
   },
   "background-clip:border-box": {
-    "prefix": "jbgcp:bb",
+    "prefix": "bgcp:bb.",
     "body": "backgroundClip: 'border-box',"
   },
   "background-clip:padding-box": {
-    "prefix": "jbgcp:pb",
+    "prefix": "bgcp:pb.",
     "body": "backgroundClip: 'padding-box',"
   },
   "background-clip:content-box": {
-    "prefix": "jbgcp:cb",
+    "prefix": "bgcp:cb.",
     "body": "backgroundClip: 'content-box',"
   },
   "background-clip:no-clip": {
-    "prefix": "jbgcp:nc",
+    "prefix": "bgcp:nc.",
     "body": "backgroundClip: 'no-clip',"
   },
   "background-origin:|": {
-    "prefix": "jbgo",
+    "prefix": "bgo.",
     "body": "backgroundOrigin: '$0',"
   },
   "background-origin:padding-box": {
-    "prefix": "jbgo:pb",
+    "prefix": "bgo:pb.",
     "body": "backgroundOrigin: 'padding-box',"
   },
   "background-origin:border-box": {
-    "prefix": "jbgo:bb",
+    "prefix": "bgo:bb.",
     "body": "backgroundOrigin: 'border-box',"
   },
   "background-origin:content-box": {
-    "prefix": "jbgo:cb",
+    "prefix": "bgo:cb.",
     "body": "backgroundOrigin: 'content-box',"
   },
   "background-size:|": {
-    "prefix": "jbgsz",
+    "prefix": "bgsz.",
     "body": "backgroundSize: '$0',"
   },
   "background-size:auto": {
-    "prefix": "jbgsz:a",
+    "prefix": "bgsz:a.",
     "body": "backgroundSize: 'auto',"
   },
   "background-size:contain": {
-    "prefix": "jbgsz:ct",
+    "prefix": "bgsz:ct.",
     "body": "backgroundSize: 'contain',"
   },
   "background-size:cover": {
-    "prefix": "jbgsz:cv",
+    "prefix": "bgsz:cv.",
     "body": "backgroundSize: 'cover',"
   },
   "color:#${1:000}": {
-    "prefix": "jc",
+    "prefix": "c.",
     "body": "color: '#${1:000}',"
   },
   "color:rgb(${1:0}, ${2:0}, ${3:0})": {
-    "prefix": "jc:r",
+    "prefix": "c:r.",
     "body": "color: 'rgb(${1:0}, ${2:0}, ${3:0})',"
   },
   "color:rgba(${1:0}, ${2:0}, ${3:0}, .${4:5})": {
-    "prefix": "jc:ra",
+    "prefix": "c:ra.",
     "body": "color: 'rgba(${1:0}, ${2:0}, ${3:0}, .${4:5})',"
   },
   "content:'|'": {
-    "prefix": "jcnt",
+    "prefix": "cnt.",
     "body": "content: '\\\"$0\\\"',"
   },
   "content:normal": {
-    "prefix": "jct:n",
+    "prefix": "ct:n.",
     "body": "content: 'normal',"
   },
   "content:open-quote": {
-    "prefix": "jct:oq",
+    "prefix": "ct:oq.",
     "body": "content: 'open-quote',"
   },
   "content:no-open-quote": {
-    "prefix": "jct:noq",
+    "prefix": "ct:noq.",
     "body": "content: 'no-open-quote',"
   },
   "content:close-quote": {
-    "prefix": "jct:cq",
+    "prefix": "ct:cq.",
     "body": "content: 'close-quote',"
   },
   "content:no-close-quote": {
-    "prefix": "jct:ncq",
+    "prefix": "ct:ncq.",
     "body": "content: 'no-close-quote',"
   },
   "content:attr(|)": {
-    "prefix": "jct:a",
+    "prefix": "ct:a.",
     "body": "content: 'attr($0)',"
   },
   "content:counter(|)": {
-    "prefix": "jct:c",
+    "prefix": "ct:c.",
     "body": "content: 'counter($0)',"
   },
   "content:counters(|)": {
-    "prefix": "jct:cs",
+    "prefix": "ct:cs.",
     "body": "content: 'counters($0)',"
   },
   "table-layout:|": {
-    "prefix": "jtbl",
+    "prefix": "tbl.",
     "body": "tableLayout: '$0',"
   },
   "table-layout:auto": {
-    "prefix": "jtbl:a",
+    "prefix": "tbl:a.",
     "body": "tableLayout: 'auto',"
   },
   "table-layout:fixed": {
-    "prefix": "jtbl:f",
+    "prefix": "tbl:f.",
     "body": "tableLayout: 'fixed',"
   },
   "caption-side:|": {
-    "prefix": "jcps",
+    "prefix": "cps.",
     "body": "captionSide: '$0',"
   },
   "caption-side:top": {
-    "prefix": "jcps:t",
+    "prefix": "cps:t.",
     "body": "captionSide: 'top',"
   },
   "caption-side:bottom": {
-    "prefix": "jcps:b",
+    "prefix": "cps:b.",
     "body": "captionSide: 'bottom',"
   },
   "empty-cells:|": {
-    "prefix": "jec",
+    "prefix": "ec.",
     "body": "emptyCells: '$0',"
   },
   "empty-cells:show": {
-    "prefix": "jec:s",
+    "prefix": "ec:s.",
     "body": "emptyCells: 'show',"
   },
   "empty-cells:hide": {
-    "prefix": "jec:h",
+    "prefix": "ec:h.",
     "body": "emptyCells: 'hide',"
   },
   "list-style:|": {
-    "prefix": "jlis",
+    "prefix": "lis.",
     "body": "listStyle: '$0',"
   },
   "list-style:none": {
-    "prefix": "jlis:n",
+    "prefix": "lis:n.",
     "body": "listStyle: 'none',"
   },
   "list-style-position:|": {
-    "prefix": "jlisp",
+    "prefix": "lisp.",
     "body": "listStylePosition: '$0',"
   },
   "list-style-position:inside": {
-    "prefix": "jlisp:i",
+    "prefix": "lisp:i.",
     "body": "listStylePosition: 'inside',"
   },
   "list-style-position:outside": {
-    "prefix": "jlisp:o",
+    "prefix": "lisp:o.",
     "body": "listStylePosition: 'outside',"
   },
   "list-style-type:|": {
-    "prefix": "jlist",
+    "prefix": "list.",
     "body": "listStyleType: '$0',"
   },
   "list-style-type:none": {
-    "prefix": "jlist:n",
+    "prefix": "list:n.",
     "body": "listStyleType: 'none',"
   },
   "list-style-type:disc": {
-    "prefix": "jlist:d",
+    "prefix": "list:d.",
     "body": "listStyleType: 'disc',"
   },
   "list-style-type:circle": {
-    "prefix": "jlist:c",
+    "prefix": "list:c.",
     "body": "listStyleType: 'circle',"
   },
   "list-style-type:square": {
-    "prefix": "jlist:s",
+    "prefix": "list:s.",
     "body": "listStyleType: 'square',"
   },
   "list-style-type:decimal": {
-    "prefix": "jlist:dc",
+    "prefix": "list:dc.",
     "body": "listStyleType: 'decimal',"
   },
   "list-style-type:decimal-leading-zero": {
-    "prefix": "jlist:dclz",
+    "prefix": "list:dclz.",
     "body": "listStyleType: 'decimal-leading-zero',"
   },
   "list-style-type:lower-roman": {
-    "prefix": "jlist:lr",
+    "prefix": "list:lr.",
     "body": "listStyleType: 'lower-roman',"
   },
   "list-style-type:upper-roman": {
-    "prefix": "jlist:ur",
+    "prefix": "list:ur.",
     "body": "listStyleType: 'upper-roman',"
   },
   "list-style-image:|": {
-    "prefix": "jlisi",
+    "prefix": "lisi.",
     "body": "listStyleImage: '$0',"
   },
   "list-style-image:none": {
-    "prefix": "jlisi:n",
+    "prefix": "lisi:n.",
     "body": "listStyleImage: 'none',"
   },
   "quotes:|": {
-    "prefix": "jq",
+    "prefix": "q.",
     "body": "quotes: '$0',"
   },
   "quotes:none": {
-    "prefix": "jq:n",
+    "prefix": "q:n.",
     "body": "quotes: 'none',"
   },
   "quotes:'\\00AB' '\\00BB' '\\201E' '\\201C'": {
-    "prefix": "jq:ru",
+    "prefix": "q:ru.",
     "body": "quotes: '\\\"\\00AB\\\" \\\"\\00BB\\\" \\\"\\201E\\\" \\\"\\201C\\\"',"
   },
   "quotes:'\\201C' '\\201D' '\\2018' '\\2019'": {
-    "prefix": "jq:en",
+    "prefix": "q:en.",
     "body": "quotes: '\\\"\\201C\\\" \\\"\\201D\\\" \\\"\\2018\\\" \\\"\\2019\\\"',"
   },
   "content:|": {
-    "prefix": "jct",
+    "prefix": "ct.",
     "body": "content: '$0',"
   },
   "counter-increment:|": {
-    "prefix": "jcoi",
+    "prefix": "coi.",
     "body": "counterIncrement: '$0',"
   },
   "counter-reset:|": {
-    "prefix": "jcor",
+    "prefix": "cor.",
     "body": "counterReset: '$0',"
   },
   "vertical-align:${1:top}": {
-    "prefix": "jva",
+    "prefix": "va.",
     "body": "verticalAlign: '${1:top}',"
   },
   "vertical-align:super": {
-    "prefix": "jva:sup",
+    "prefix": "va:sup.",
     "body": "verticalAlign: 'super',"
   },
   "vertical-align:top": {
-    "prefix": "jva:t",
+    "prefix": "va:t.",
     "body": "verticalAlign: 'top',"
   },
   "vertical-align:text-top": {
-    "prefix": "jva:tt",
+    "prefix": "va:tt.",
     "body": "verticalAlign: 'text-top',"
   },
   "vertical-align:middle": {
-    "prefix": "jva:m",
+    "prefix": "va:m.",
     "body": "verticalAlign: 'middle',"
   },
   "vertical-align:baseline": {
-    "prefix": "jva:bl",
+    "prefix": "va:bl.",
     "body": "verticalAlign: 'baseline',"
   },
   "vertical-align:bottom": {
-    "prefix": "jva:b",
+    "prefix": "va:b.",
     "body": "verticalAlign: 'bottom',"
   },
   "vertical-align:text-bottom": {
-    "prefix": "jva:tb",
+    "prefix": "va:tb.",
     "body": "verticalAlign: 'text-bottom',"
   },
   "vertical-align:sub": {
-    "prefix": "jva:sub",
+    "prefix": "va:sub.",
     "body": "verticalAlign: 'sub',"
   },
   "text-align:${1:left}": {
-    "prefix": "jta",
+    "prefix": "ta.",
     "body": "textAlign: '${1:left}',"
   },
   "text-align:left": {
-    "prefix": "jta:l",
+    "prefix": "ta:l.",
     "body": "textAlign: 'left',"
   },
   "text-align:center": {
-    "prefix": "jta:c",
+    "prefix": "ta:c.",
     "body": "textAlign: 'center',"
   },
   "text-align:right": {
-    "prefix": "jta:r",
+    "prefix": "ta:r.",
     "body": "textAlign: 'right',"
   },
   "text-align:justify": {
-    "prefix": "jta:j",
+    "prefix": "ta:j.",
     "body": "textAlign: 'justify',"
   },
   "text-align-last:|": {
-    "prefix": "jta-lst",
+    "prefix": "ta-lst.",
     "body": "textAlignLast: '$0',"
   },
   "text-align-last:auto": {
-    "prefix": "jtal:a",
+    "prefix": "tal:a.",
     "body": "textAlignLast: 'auto',"
   },
   "text-align-last:left": {
-    "prefix": "jtal:l",
+    "prefix": "tal:l.",
     "body": "textAlignLast: 'left',"
   },
   "text-align-last:center": {
-    "prefix": "jtal:c",
+    "prefix": "tal:c.",
     "body": "textAlignLast: 'center',"
   },
   "text-align-last:right": {
-    "prefix": "jtal:r",
+    "prefix": "tal:r.",
     "body": "textAlignLast: 'right',"
   },
   "text-decoration:${1:none}": {
-    "prefix": "jtd",
+    "prefix": "td.",
     "body": "textDecoration: '${1:none}',"
   },
   "text-decoration:none": {
-    "prefix": "jtd:n",
+    "prefix": "td:n.",
     "body": "textDecoration: 'none',"
   },
   "text-decoration:underline": {
-    "prefix": "jtd:u",
+    "prefix": "td:u.",
     "body": "textDecoration: 'underline',"
   },
   "text-decoration:overline": {
-    "prefix": "jtd:o",
+    "prefix": "td:o.",
     "body": "textDecoration: 'overline',"
   },
   "text-decoration:line-through": {
-    "prefix": "jtd:l",
+    "prefix": "td:l.",
     "body": "textDecoration: 'line-through',"
   },
   "text-emphasis:|": {
-    "prefix": "jte",
+    "prefix": "te.",
     "body": "textEmphasis: '$0',"
   },
   "text-emphasis:none": {
-    "prefix": "jte:n",
+    "prefix": "te:n.",
     "body": "textEmphasis: 'none',"
   },
   "text-emphasis:accent": {
-    "prefix": "jte:ac",
+    "prefix": "te:ac.",
     "body": "textEmphasis: 'accent',"
   },
   "text-emphasis:dot": {
-    "prefix": "jte:dt",
+    "prefix": "te:dt.",
     "body": "textEmphasis: 'dot',"
   },
   "text-emphasis:circle": {
-    "prefix": "jte:c",
+    "prefix": "te:c.",
     "body": "textEmphasis: 'circle',"
   },
   "text-emphasis:disc": {
-    "prefix": "jte:ds",
+    "prefix": "te:ds.",
     "body": "textEmphasis: 'disc',"
   },
   "text-emphasis:before": {
-    "prefix": "jte:b",
+    "prefix": "te:b.",
     "body": "textEmphasis: 'before',"
   },
   "text-emphasis:after": {
-    "prefix": "jte:a",
+    "prefix": "te:a.",
     "body": "textEmphasis: 'after',"
   },
   "text-height:|": {
-    "prefix": "jth",
+    "prefix": "th.",
     "body": "textHeight: '$0',"
   },
   "text-height:auto": {
-    "prefix": "jth:a",
+    "prefix": "th:a.",
     "body": "textHeight: 'auto',"
   },
   "text-height:font-size": {
-    "prefix": "jth:f",
+    "prefix": "th:f.",
     "body": "textHeight: 'font-size',"
   },
   "text-height:text-size": {
-    "prefix": "jth:t",
+    "prefix": "th:t.",
     "body": "textHeight: 'text-size',"
   },
   "text-height:max-size": {
-    "prefix": "jth:m",
+    "prefix": "th:m.",
     "body": "textHeight: 'max-size',"
   },
   "text-indent:|": {
-    "prefix": "jti",
+    "prefix": "ti.",
     "body": "textIndent: '$0',"
   },
   "text-indent:-9999px": {
-    "prefix": "jti:-",
+    "prefix": "ti:-.",
     "body": "textIndent: '-9999px',"
   },
   "text-justify:|": {
-    "prefix": "jtj",
+    "refix.": "tj.",
     "body": "textJustify: '$0',"
   },
   "text-justify:auto": {
-    "prefix": "jtj:a",
+    "prefix": "tj:a.",
     "body": "textJustify: 'auto',"
   },
   "text-justify:inter-word": {
-    "prefix": "jtj:iw",
+    "prefix": "tj:iw.",
     "body": "textJustify: 'inter-word',"
   },
   "text-justify:inter-ideograph": {
-    "prefix": "jtj:ii",
+    "prefix": "tj:ii.",
     "body": "textJustify: 'inter-ideograph',"
   },
   "text-justify:inter-cluster": {
-    "prefix": "jtj:ic",
+    "prefix": "tj:ic.",
     "body": "textJustify: 'inter-cluster'"
   },
   "text-justify:distribute": {
-    "prefix": "jtj:d",
+    "prefix": "tj:d.",
     "body": "textJustify: 'distribute',"
   },
   "text-justify:kashida": {
-    "prefix": "jtj:k",
+    "prefix": "tj:k.",
     "body": "textJustify: 'kashida',"
   },
   "text-justify:tibetan": {
-    "prefix": "jtj:t",
+    "prefix": "tj:t.",
     "body": "textJustify: 'tibetan',"
   },
   "text-overflow:${ellipsis}": {
-    "prefix": "jtov",
+    "prefix": "tov.",
     "body": "textOverflow: '${ellipsis}',"
   },
   "text-overflow:ellipsis": {
-    "prefix": "jtov:e",
+    "prefix": "tov:e.",
     "body": "textOverflow: 'ellipsis',"
   },
   "text-overflow:clip": {
-    "prefix": "jtov:c",
+    "prefix": "tov:c.",
     "body": "textOverflow: 'clip',"
   },
   "text-outline:|": {
-    "prefix": "jto",
+    "prefix": "to.",
     "body": "textOutline: '$0',"
   },
   "text-outline:${1:0} ${2:0} ${3:#000}": {
-    "prefix": "jto+",
+    "prefix": "to+.",
     "body": "textOutline: '${1:0} ${2:0} ${3:#000}',"
   },
   "text-outline:none": {
-    "prefix": "jto:n",
+    "prefix": "to:n.",
     "body": "textOutline: 'none',"
   },
   "text-replace:|": {
-    "prefix": "jtr",
+    "prefix": "tr.",
     "body": "textReplace: '$0',"
   },
   "text-replace:none": {
-    "prefix": "jtr:n",
+    "prefix": "tr:n.",
     "body": "textReplace: 'none',"
   },
   "text-transform:${1:uppercase}": {
-    "prefix": "jtt",
+    "prefix": "tt.",
     "body": "textTransform: '${1:uppercase}',"
   },
   "text-transform:none": {
-    "prefix": "jtt:n",
+    "prefix": "tt:n.",
     "body": "textTransform: 'none',"
   },
   "text-transform:capitalize": {
-    "prefix": "jtt:c",
+    "prefix": "tt:c.",
     "body": "textTransform: 'capitalize',"
   },
   "text-transform:uppercase": {
-    "prefix": "jtt:u",
+    "prefix": "tt:u.",
     "body": "textTransform: 'uppercase',"
   },
   "text-transform:lowercase": {
-    "prefix": "jtt:l",
+    "prefix": "tt:l.",
     "body": "textTransform: 'lowercase',"
   },
   "text-wrap:|": {
-    "prefix": "jtw",
+    "prefix": "tw.",
     "body": "textWrap: '$0',"
   },
   "text-wrap:normal": {
-    "prefix": "jtw:n",
+    "prefix": "tw:n.",
     "body": "textWrap: 'normal',"
   },
   "text-wrap:none": {
-    "prefix": "jtw:no",
+    "prefix": "tw:no.",
     "body": "textWrap: 'none',"
   },
   "text-wrap:unrestricted": {
-    "prefix": "jtw:u",
+    "prefix": "tw:u.",
     "body": "textWrap: 'unrestricted',"
   },
   "text-wrap:suppress": {
-    "prefix": "jtw:s",
+    "prefix": "tw:s.",
     "body": "textWrap: 'suppress',"
   },
   "text-shadow:${1:hoff} ${2:voff} ${3:blur} ${4:#000}": {
-    "prefix": "jtsh",
+    "prefix": "tsh.",
     "body": "textShadow: '${1:hoff} ${2:voff} ${3:blur} ${4:#000}',"
   },
   "text-shadow:${1:h} ${2:v} ${3:blur} rgb(${4:0}, ${5:0}, ${6:0})": {
-    "prefix": "jtsh:r",
+    "prefix": "tsh:r.",
     "body": "textShadow: '${1:h} ${2:v} ${3:blur} rgb(${4:0}, ${5:0}, ${6:0})',"
   },
   "text-shadow:${1:h} ${2:v} ${3:blur} rgba(${4:0}, ${5:0}, ${6:0}, .${7:5})": {
-    "prefix": "jtsh:ra",
+    "prefix": "tsh:ra.",
     "body": "textShadow: '${1:h} ${2:v} ${3:blur} rgba(${4:0}, ${5:0}, ${6:0}, .${7:5})',"
   },
   "text-shadow:${1:0} ${2:0} ${3:0} ${4:#000}": {
-    "prefix": "jtsh+",
+    "prefix": "tsh+.",
     "body": "textShadow: '${1:0} ${2:0} ${3:0} ${4:#000}',"
   },
   "text-shadow:none": {
-    "prefix": "jtsh:n",
+    "prefix": "tsh:n.",
     "body": "textShadow: 'none',"
   },
   "transform:|": {
-    "prefix": "jtrf",
+    "prefix": "trf.",
     "body": "transform: '$0',"
   },
   "transform: skewX(${1:angle})": {
-    "prefix": "jtrf:skx",
+    "prefix": "trf:skx.",
     "body": "transform: ' skewX(${1:angle})',"
   },
   "transform: skewY(${1:angle})": {
-    "prefix": "jtrf:sky",
+    "prefix": "trf:sky.",
     "body": "transform: ' skewY(${1:angle})',"
   },
   "transform: scale(${1:x}, ${2:y})": {
-    "prefix": "jtrf:sc",
+    "prefix": "trf:sc.",
     "body": "transform: ' scale(${1:x}, ${2:y})',"
   },
   "transform: scaleX(${1:x})": {
-    "prefix": "jtrf:scx",
+    "prefix": "trf:scx.",
     "body": "transform: ' scaleX(${1:x})',"
   },
   "transform: scaleY(${1:y})": {
-    "prefix": "jtrf:scy",
+    "prefix": "trf:scy.",
     "body": "transform: ' scaleY(${1:y})',"
   },
   "transform: scaleZ(${1:z})": {
-    "prefix": "jtrf:scz",
+    "prefix": "trf:scz.",
     "body": "transform: ' scaleZ(${1:z})',"
   },
   "transform: scale3d(${1:x}, ${2:y}, ${3:z})": {
-    "prefix": "jtrf:sc3",
+    "prefix": "trf:sc3.",
     "body": "transform: ' scale3d(${1:x}, ${2:y}, ${3:z})',"
   },
   "transform: rotate(${1:angle})": {
-    "prefix": "jtrf:r",
+    "prefix": "trf:r.",
     "body": "transform: ' rotate(${1:angle})',"
   },
   "transform: rotateX(${1:angle})": {
-    "prefix": "jtrf:rx",
+    "prefix": "trf:rx.",
     "body": "transform: ' rotateX(${1:angle})',"
   },
   "transform: rotateY(${1:angle})": {
-    "prefix": "jtrf:ry",
+    "prefix": "trf:ry.",
     "body": "transform: ' rotateY(${1:angle})',"
   },
   "transform: rotateZ(${1:angle})": {
-    "prefix": "jtrf:rz",
+    "prefix": "trf:rz.",
     "body": "transform: ' rotateZ(${1:angle})',"
   },
   "transform: translate(${1:x}, ${2:y})": {
-    "prefix": "jtrf:t",
+    "prefix": "trf:t.",
     "body": "transform: ' translate(${1:x}, ${2:y})',"
   },
   "transform: translateX(${1:x})": {
-    "prefix": "jtrf:tx",
+    "prefix": "trf:tx.",
     "body": "transform: ' translateX(${1:x})',"
   },
   "transform: translateY(${1:y})": {
-    "prefix": "jtrf:ty",
+    "prefix": "trf:ty.",
     "body": "transform: ' translateY(${1:y})',"
   },
   "transform: translateZ(${1:z})": {
-    "prefix": "jtrf:tz",
+    "prefix": "trf:tz.",
     "body": "transform: ' translateZ(${1:z})',"
   },
   "transform: translate3d(${1:tx}, ${2:ty}, ${3:tz})": {
-    "prefix": "jtrf:t3",
+    "prefix": "trf:t3.",
     "body": "transform: ' translate3d(${1:tx}, ${2:ty}, ${3:tz})',"
   },
   "transform-origin:|": {
-    "prefix": "jtrfo",
+    "prefix": "trfo.",
     "body": "transformOrigin: '$0',"
   },
   "transform-style:${1:preserve-3d}": {
-    "prefix": "jtrfs",
+    "prefix": "trfs.",
     "body": "transformStyle: '${1:preserve-3d}',"
   },
   "transition:${1:prop} ${2:time}": {
-    "prefix": "jtrs",
+    "prefix": "trs.",
     "body": "transition: '${1:prop} ${2:time}',"
   },
   "transition-delay:${1:time}": {
-    "prefix": "jtrsde",
+    "prefix": "trsde.",
     "body": "transitionDelay: '${1:time}',"
   },
   "transition-duration:${1:time}": {
-    "prefix": "jtrsdu",
+    "prefix": "trsdu.",
     "body": "transitionDuration: '${1:time}',"
   },
   "transition-property:${1:prop}": {
-    "prefix": "jtrsp",
+    "prefix": "trsp.",
     "body": "transitionProperty: '${1:prop}',"
   },
   "transition-timing-function:${1:tfunc}": {
-    "prefix": "jtrstf",
+    "prefix": "trstf.",
     "body": "transitionTimingFunction: '${1:tfunc}',"
   },
   "line-height:|": {
-    "prefix": "jlh",
+    "prefix": "lh.",
     "body": "lineHeight: '$0',"
   },
   "white-space:|": {
-    "prefix": "jwhs",
+    "prefix": "whs.",
     "body": "whiteSpace: '$0',"
   },
   "white-space:normal": {
-    "prefix": "jwhs:n",
+    "prefix": "whs:n.",
     "body": "whiteSpace: 'normal',"
   },
   "white-space:pre": {
-    "prefix": "jwhs:p",
+    "prefix": "whs:p.",
     "body": "whiteSpace: 'pre',"
   },
   "white-space:nowrap": {
-    "prefix": "jwhs:nw",
+    "prefix": "whs:nw.",
     "body": "whiteSpace: 'nowrap',"
   },
   "white-space:pre-wrap": {
-    "prefix": "jwhs:pw",
+    "prefix": "whs:pw.",
     "body": "whiteSpace: 'pre-wrap',"
   },
   "white-space:pre-line": {
-    "prefix": "jwhs:pl",
+    "prefix": "whs:pl.",
     "body": "whiteSpace: 'pre-line',"
   },
   "white-space-collapse:|": {
-    "prefix": "jwhsc",
+    "prefix": "whsc.",
     "body": "whiteSpaceCollapse: '$0',"
   },
   "white-space-collapse:normal": {
-    "prefix": "jwhsc:n",
+    "prefix": "whsc:n.",
     "body": "whiteSpaceCollapse: 'normal',"
   },
   "white-space-collapse:keep-all": {
-    "prefix": "jwhsc:k",
+    "prefix": "whsc:k.",
     "body": "whiteSpaceCollapse: 'keep-all',"
   },
   "white-space-collapse:loose": {
-    "prefix": "jwhsc:l",
+    "prefix": "whsc:l.",
     "body": "whiteSpaceCollapse: 'loose',"
   },
   "white-space-collapse:break-strict": {
-    "prefix": "jwhsc:bs",
+    "prefix": "whsc:bs.",
     "body": "whiteSpaceCollapse: 'break-strict',"
   },
   "white-space-collapse:break-all": {
-    "prefix": "jwhsc:ba",
+    "prefix": "whsc:ba.",
     "body": "whiteSpaceCollapse: 'break-all',"
   },
   "word-break:|": {
-    "prefix": "jwob",
+    "prefix": "wob.",
     "body": "wordBreak: '$0',"
   },
   "word-break:normal": {
-    "prefix": "jwob:n",
+    "prefix": "wob:n.",
     "body": "wordBreak: 'normal',"
   },
   "word-break:keep-all": {
-    "prefix": "jwob:k",
+    "prefix": "wob:k.",
     "body": "wordBreak: 'keep-all',"
   },
   "word-break:break-all": {
-    "prefix": "jwob:ba",
+    "prefix": "wob:ba.",
     "body": "wordBreak: 'break-all',"
   },
   "word-spacing:|": {
-    "prefix": "jwos",
+    "prefix": "wos.",
     "body": "wordSpacing: '$0',"
   },
   "word-wrap:|": {
-    "prefix": "jwow",
+    "prefix": "wow.",
     "body": "wordWrap: '$0',"
   },
   "word-wrap:normal": {
-    "prefix": "jwow:nm",
+    "prefix": "wow:nm.",
     "body": "wordWrap: 'normal',"
   },
   "word-wrap:none": {
-    "prefix": "jwow:n",
+    "prefix": "wow:n.",
     "body": "wordWrap: 'none',"
   },
   "word-wrap:unrestricted": {
-    "prefix": "jwow:u",
+    "prefix": "wow:u.",
     "body": "wordWrap: 'unrestricted',"
   },
   "word-wrap:suppress": {
-    "prefix": "jwow:s",
+    "prefix": "wow:s.",
     "body": "wordWrap: 'suppress',"
   },
   "word-wrap:break-word": {
-    "prefix": "jwow:b",
+    "prefix": "wow:b.",
     "body": "wordWrap: 'break-word',"
   },
   "writing-mode:${1:lr-tb}": {
-    "prefix": "jwm",
+    "prefix": "wm.",
     "body": "writingMode: '${1:lr-tb}'"
   },
   "writing-mode:lr-tb": {
-    "prefix": "jwm:lrt",
+    "prefix": "wm:lrt.",
     "body": "writingMode: 'lr-tb',"
   },
   "writing-mode:lr-bt": {
-    "prefix": "jwm:lrb",
+    "prefix": "wm:lrb.",
     "body": "writingMode: 'lr-bt',"
   },
   "writing-mode:rl-tb": {
-    "prefix": "jwm:rlt",
+    "prefix": "wm:rlt.",
     "body": "writingMode: 'rl-tb'"
   },
   "writing-mode:rl-bt": {
-    "prefix": "jwm:rlb",
+    "prefix": "wm:rlb.",
     "body": "writingMode: 'rl-bt',"
   },
   "writing-mode:tb-rl": {
-    "prefix": "jwm:tbr",
+    "prefix": "wm:tbr.",
     "body": "writingMode: 'tb-rl',"
   },
   "writing-mode:tb-lr": {
-    "prefix": "jwm:tbl",
+    "prefix": "wm:tbl.",
     "body": "writingMode: 'tb-lr',"
   },
   "writing-mode:bt-lr": {
-    "prefix": "jwm:btl",
+    "prefix": "wm:btl.",
     "body": "writingMode: 'bt-lr',"
   },
   "writing-mode:bt-rl": {
-    "prefix": "jwm:btr",
+    "prefix": "wm:btr.",
     "body": "writingMode: 'bt-rl',"
   },
   "letter-spacing:|": {
-    "prefix": "jlts",
+    "prefix": "ts..",
     "body": "letterSpacing: '$0',"
   },
   "letter-spacing:normal": {
-    "prefix": "jlts-n",
+    "prefix": "lts-n.",
     "body": "letterSpacing: 'normal',"
   },
   "font:|": {
-    "prefix": "jf",
+    "prefix": "f.",
     "body": "font: '$0',"
   },
   "font:${1:1em} ${2:Arial,sans-serif}": {
-    "prefix": "jf+",
+    "prefix": "f+.",
     "body": "font: '${1:1em} ${2:Arial,sans-serif}',"
   },
   "font-weight:|": {
-    "prefix": "jfw",
+    "prefix": "w..",
     "body": "fontWeight: '$0',"
   },
   "font-weight:normal": {
-    "prefix": "jfw:n",
+    "prefix": "fw:n.",
     "body": "fontWeight: 'normal',"
   },
   "font-weight:bold": {
-    "prefix": "jfw:b",
+    "prefix": "fw:b.",
     "body": "fontWeight: 'bold',"
   },
   "font-weight:bolder": {
-    "prefix": "jfw:br",
+    "prefix": "fw:br.",
     "body": "fontWeight: 'bolder',"
   },
   "font-weight:lighter": {
-    "prefix": "jfw:lr",
+    "prefix": "fw:lr.",
     "body": "fontWeight: 'lighter',"
   },
   "font-style:${italic}": {
-    "prefix": "jfs",
+    "prefix": "fs.",
     "body": "fontStyle: '${italic}',"
   },
   "font-style:normal": {
-    "prefix": "jfs:n",
+    "prefix": "fs:n.",
     "body": "fontStyle: 'normal',"
   },
   "font-style:italic": {
-    "prefix": "jfs:i",
+    "prefix": "fs:i.",
     "body": "fontStyle: 'italic',"
   },
   "font-style:oblique": {
-    "prefix": "jfs:o",
+    "prefix": "fs:o.",
     "body": "fontStyle: 'oblique',"
   },
   "font-variant:|": {
-    "prefix": "jfv",
+    "prefix": "fv.",
     "body": "fontVariant: '$0',"
   },
   "font-variant:normal": {
-    "prefix": "jfv:n",
+    "prefix": "fv:n.",
     "body": "fontVariant: 'normal',"
   },
   "font-variant:small-caps": {
-    "prefix": "jfv:sc",
+    "prefix": "fv:sc.",
     "body": "fontVariant: 'small-caps',"
   },
   "font-size:|": {
-    "prefix": "jfz",
+    "prefix": "fz.",
     "body": "fontSize: '$0',"
   },
   "font-size-adjust:|": {
-    "prefix": "jfza",
+    "refix.": "fza.",
     "body": "fontSizeAdjust: '$0',"
   },
   "font-size-adjust:none": {
-    "prefix": "jfza:n",
+    "prefix": "fza:n.",
     "body": "fontSizeAdjust: 'none',"
   },
   "font-family:|": {
-    "prefix": "jff",
+    "prefix": "ff.",
     "body": "fontFamily: '$0',"
   },
   "font-family:serif": {
-    "prefix": "jff:s",
+    "prefix": "ff:s.",
     "body": "fontFamily: 'serif',"
   },
   "font-family:sans-serif": {
-    "prefix": "jff:ss",
+    "prefix": "ff:ss.",
     "body": "fontFamily: 'sans-serif',"
   },
   "font-family:cursive": {
-    "prefix": "jff:c",
+    "prefix": "ff:c.",
     "body": "fontFamily: 'cursive',"
   },
   "font-family:fantasy": {
-    "prefix": "jff:f",
+    "prefix": "ff:f.",
     "body": "fontFamily: 'fantasy',"
   },
   "font-family:monospace": {
-    "prefix": "jff:m",
+    "prefix": "ff:m.",
     "body": "fontFamily: 'monospace',"
   },
   "font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif": {
-    "prefix": "jff:a",
+    "prefix": "ff:a.",
     "body": "fontFamily: ' Arial, \"Helvetica Neue\", Helvetica, sans-serif',"
   },
   "font-family: \"Times New Roman\", Times, Baskerville, Georgia, serif": {
-    "prefix": "jff:t",
+    "prefix": "ff:t.",
     "body": "fontFamily: ' \"Times New Roman\", Times, Baskerville, Georgia, serif',"
   },
   "font-family: Verdana, Geneva, sans-serif": {
-    "prefix": "jff:v",
+    "prefix": "ff:v.",
     "body": "fontFamily: ' Verdana, Geneva, sans-serif',"
   },
   "font-effect:|": {
-    "prefix": "jfef",
+    "prefix": "fef.",
     "body": "fontEffect: '$0',"
   },
   "font-effect:none": {
-    "prefix": "jfef:n",
+    "prefix": "fef:n.",
     "body": "fontEffect: 'none',"
   },
   "font-effect:engrave": {
-    "prefix": "jfef:eg",
+    "prefix": "fef:eg.",
     "body": "fontEffect: 'engrave',"
   },
   "font-effect:emboss": {
-    "prefix": "jfef:eb",
+    "prefix": "fef:eb.",
     "body": "fontEffect: 'emboss',"
   },
   "font-effect:outline": {
-    "prefix": "jfef:o",
+    "prefix": "fef:o.",
     "body": "fontEffect: 'outline',"
   },
   "font-emphasize:|": {
-    "prefix": "jfem",
+    "prefix": "fem.",
     "body": "fontEmphasize: '$0',"
   },
   "font-emphasize-position:|": {
-    "prefix": "jfemp",
+    "prefix": "femp.",
     "body": "fontEmphasizePosition: '$0',"
   },
   "font-emphasize-position:before": {
-    "prefix": "jfemp:b",
+    "prefix": "femp:b.",
     "body": "fontEmphasizePosition: 'before',"
   },
   "font-emphasize-position:after": {
-    "prefix": "jfemp:a",
+    "prefix": "femp:a.",
     "body": "fontEmphasizePosition: 'after',"
   },
   "font-emphasize-style:|": {
-    "prefix": "jfems",
+    "prefix": "fems.",
     "body": "fontEmphasizeStyle: '$0',"
   },
   "font-emphasize-style:none": {
-    "prefix": "jfems:n",
+    "prefix": "fems:n.",
     "body": "fontEmphasizeStyle: 'none',"
   },
   "font-emphasize-style:accent": {
-    "prefix": "jfems:ac",
+    "prefix": "fems:ac.",
     "body": "fontEmphasizeStyle: 'accent',"
   },
   "font-emphasize-style:dot": {
-    "prefix": "jfems:dt",
+    "prefix": "fems:dt.",
     "body": "fontEmphasizeStyle: 'dot',"
   },
   "font-emphasize-style:circle": {
-    "prefix": "jfems:c",
+    "prefix": "fems:c.",
     "body": "fontEmphasizeStyle: 'circle',"
   },
   "font-emphasize-style:disc": {
-    "prefix": "jfems:ds",
+    "prefix": "fems:ds.",
     "body": "fontEmphasizeStyle: 'disc',"
   },
   "font-smooth:|": {
-    "prefix": "jfsm",
+    "prefix": "fsm.",
     "body": "fontSmooth: '$0',"
   },
   "font-smooth:auto": {
-    "prefix": "jfsm:a",
+    "prefix": "fsm:a.",
     "body": "fontSmooth: 'auto',"
   },
   "font-smooth:never": {
-    "prefix": "jfsm:n",
+    "prefix": "fsm:n.",
     "body": "fontSmooth: 'never',"
   },
   "font-smooth:always": {
-    "prefix": "jfsm:aw",
+    "prefix": "fsm:aw.",
     "body": "fontSmooth: 'always',"
   },
   "font-stretch:|": {
-    "prefix": "jfst",
+    "prefix": "fst.",
     "body": "fontStretch: '$0',"
   },
   "font-stretch:normal": {
-    "prefix": "jfst:n",
+    "prefix": "fst:n.",
     "body": "fontStretch: 'normal',"
   },
   "font-stretch:ultra-condensed": {
-    "prefix": "jfst:uc",
+    "prefix": "fst:uc.",
     "body": "fontStretch: 'ultra-condensed',"
   },
   "font-stretch:extra-condensed": {
-    "prefix": "jfst:ec",
+    "prefix": "fst:ec.",
     "body": "fontStretch: 'extra-condensed',"
   },
   "font-stretch:condensed": {
-    "prefix": "jfst:c",
+    "prefix": "fst:c.",
     "body": "fontStretch: 'condensed',"
   },
   "font-stretch:semi-condensed": {
-    "prefix": "jfst:sc",
+    "prefix": "fst:sc.",
     "body": "fontStretch: 'semi-condensed',"
   },
   "font-stretch:semi-expanded": {
-    "prefix": "jfst:se",
+    "prefix": "fst:se.",
     "body": "fontStretch: 'semi-expanded',"
   },
   "font-stretch:expanded": {
-    "prefix": "jfst:e",
+    "prefix": "fst:e.",
     "body": "fontStretch: 'expanded',"
   },
   "font-stretch:extra-expanded": {
-    "prefix": "jfst:ee",
+    "prefix": "fst:ee.",
     "body": "fontStretch: 'extra-expanded',"
   },
   "font-stretch:ultra-expanded": {
-    "prefix": "jfst:ue",
+    "prefix": "fst:ue.",
     "body": "fontStretch: 'ultra-expanded',"
   },
   "opacity:|": {
-    "prefix": "jop",
+    "prefix": "op.",
     "body": "opacity: '$0',"
   },
   "opacity: $1\nfilter: alpha(opacity=$2);": {
-    "prefix": "jop+",
+    "prefix": "op+.",
     "body": "opacity:  $1\nfilter:' alpha(opacity=$2);',"
   },
   "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100)": {
-    "prefix": "jop:ie",
+    "prefix": "op:ie.",
     "body": "filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)',"
   },
   "-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)'": {
-    "prefix": "jop:ms",
+    "prefix": "op:ms.",
     "body": "msFilter: '\\\"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)\\\"',"
   },
   "resize:|": {
-    "prefix": "jrsz",
+    "prefix": "rsz.",
     "body": "resize: '$0',"
   },
   "resize:none": {
-    "prefix": "jrsz:n",
+    "prefix": "rsz:n.",
     "body": "resize: 'none',"
   },
   "resize:both": {
-    "prefix": "jrsz:b",
+    "prefix": "rsz:b.",
     "body": "resize: 'both',"
   },
   "resize:horizontal": {
-    "prefix": "jrsz:h",
+    "prefix": "rsz:h.",
     "body": "resize: 'horizontal',"
   },
   "resize:vertical": {
-    "prefix": "jrsz:v",
+    "prefix": "rsz:v.",
     "body": "resize: 'vertical',"
   },
   "cursor:${pointer}": {
-    "prefix": "jcur",
+    "prefix": "cur.",
     "body": "cursor: '${pointer}',"
   },
   "cursor:auto": {
-    "prefix": "jcur:a",
+    "prefix": "cur:a.",
     "body": "cursor: 'auto',"
   },
   "cursor:default": {
-    "prefix": "jcur:d",
+    "prefix": "cur:d.",
     "body": "cursor: 'default'"
   },
   "cursor:crosshair": {
-    "prefix": "jcur:c",
+    "prefix": "cur:c.",
     "body": "cursor: 'crosshair',"
   },
   "cursor:hand": {
-    "prefix": "jcur:ha",
+    "prefix": "cur:ha.",
     "body": "cursor: 'hand',"
   },
   "cursor:help": {
-    "prefix": "jcur:he",
+    "prefix": "cur:he.",
     "body": "cursor: 'help',"
   },
   "cursor:move": {
-    "prefix": "jcur:m",
+    "prefix": "cur:m.",
     "body": "cursor: 'move',"
   },
   "cursor:pointer": {
-    "prefix": "jcur:p",
+    "prefix": "cur:p.",
     "body": "cursor: 'pointer',"
   },
   "cursor:text": {
-    "prefix": "jcur:t",
+    "prefix": "cur:t.",
     "body": "cursor: 'text',"
   },
   "flex-direction:|": {
-    "prefix": "jfxd",
+    "prefix": "fxd.",
     "body": "flexDirection: '$0',"
   },
   "flex-direction:row": {
-    "prefix": "jfxd:r",
+    "prefix": "fxd:r.",
     "body": "flexDirection: 'row',"
   },
   "flex-direction:row-reverse": {
-    "prefix": "jfxd:rr",
+    "prefix": "fxd:rr.",
     "body": "flexDirection: 'row-reverse',"
   },
   "flex-direction:column": {
-    "prefix": "jfxd:c",
+    "prefix": "fxd:c.",
     "body": "flexDirection: 'column',"
   },
   "flex-direction:column-reverse": {
-    "prefix": "jfxd:cr",
+    "prefix": "fxd:cr.",
     "body": "flexDirection: 'column-reverse',"
   },
   "flex-wrap: |": {
-    "prefix": "jfxw",
+    "prefix": "fxw.",
     "body": "flexWrap: ' $0',"
   },
   "flex-wrap:nowrap": {
-    "prefix": "jfxw:n",
+    "prefix": "fxw:n.",
     "body": "flexWrap: 'nowrap',"
   },
   "flex-wrap:wrap": {
-    "prefix": "jfxw:w",
+    "prefix": "fxw:w.",
     "body": "flexWrap: 'wrap',"
   },
   "flex-wrap:wrap-reverse": {
-    "prefix": "jfxw:wr",
+    "prefix": "fxw:wr.",
     "body": "flexWrap: 'wrap-reverse',"
   },
   "flex-flow:|": {
-    "prefix": "jfxf",
+    "prefix": "fxf.",
     "body": "flexFlow: '$0',"
   },
   "justify-content:|": {
-    "prefix": "jjc",
+    "prefix": "jc.",
     "body": "justifyContent: '$0',"
   },
   "justify-content:flex-start": {
-    "prefix": "jjc:fs",
+    "prefix": "jc:fs.",
     "body": "justifyContent: 'flex-start',"
   },
   "justify-content:flex-end": {
-    "prefix": "jjc:fe",
+    "prefix": "jc:fe.",
     "body": "justifyContent: 'flex-end',"
   },
   "justify-content:center": {
-    "prefix": "jjc:c",
+    "prefix": "jc:c.",
     "body": "justifyContent: 'center',"
   },
   "justify-content:space-between": {
-    "prefix": "jjc:sb",
+    "prefix": "jc:sb.",
     "body": "justifyContent: 'space-between',"
   },
   "justify-content:space-around": {
-    "prefix": "jjc:sa",
+    "prefix": "jc:sa.",
     "body": "justifyContent: 'space-around',"
   },
   "align-items:|": {
-    "prefix": "jai",
+    "prefix": "ai.",
     "body": "alignItems: '$0',"
   },
   "align-items:flex-start": {
-    "prefix": "jai:fs",
+    "prefix": "ai:fs.",
     "body": "alignItems: 'flex-start',"
   },
   "align-items:flex-end": {
-    "prefix": "jai:fe",
+    "prefix": "ai:fe.",
     "body": "alignItems: 'flex-end',"
   },
   "align-items:center": {
-    "prefix": "jai:c",
+    "prefix": "ai:c.",
     "body": "alignItems: 'center',"
   },
   "align-items:baseline": {
-    "prefix": "jai:b",
+    "prefix": "ai:b.",
     "body": "alignItems: 'baseline',"
   },
   "align-items:stretch": {
-    "prefix": "jai:s",
+    "prefix": "ai:s.",
     "body": "alignItems: 'stretch',"
   },
   "align-content:|": {
-    "prefix": "jac",
+    "prefix": "ac.",
     "body": "alignContent: '$0',"
   },
   "align-content:flex-start": {
-    "prefix": "jac:fs",
+    "prefix": "ac:fs.",
     "body": "alignContent: 'flex-start',"
   },
   "align-content:flex-end": {
-    "prefix": "jac:fe",
+    "prefix": "ac:fe.",
     "body": "alignContent: 'flex-end',"
   },
   "align-content:center": {
-    "prefix": "jac:c",
+    "prefix": "ac:c.",
     "body": "alignContent: 'center',"
   },
   "align-content:space-between": {
-    "prefix": "jac:sb",
+    "prefix": "ac:sb.",
     "body": "alignContent: 'space-between',"
   },
   "align-content:space-around": {
-    "prefix": "jac:sa",
+    "prefix": "ac:sa.",
     "body": "alignContent: 'space-around',"
   },
   "align-content:stretch": {
-    "prefix": "jac:s",
+    "prefix": "ac:s.",
     "body": "alignContent: 'stretch',"
   },
   "order:|": {
-    "prefix": "jord",
+    "prefix": "ord.",
     "body": "order: '$0',"
   },
   "flex-grow:|": {
-    "prefix": "jfxg",
+    "prefix": "fxg.",
     "body": "flexGrow: '$0',"
   },
   "flex-shrink:|": {
-    "prefix": "jfxsh",
+    "prefix": "fxsh.",
     "body": "flexShrink: '$0',"
   },
   "flex-basis:|": {
-    "prefix": "jfxb",
+    "prefix": "fxb.",
     "body": "flexBasis: '$0',"
   },
   "flex:|": {
-    "prefix": "jfx",
+    "prefix": "fx.",
     "body": "flex: '$0',"
   },
   "align-self:|": {
-    "prefix": "jas",
+    "prefix": "as.",
     "body": "alignSelf: '$0',"
   },
   "align-self:auto": {
-    "prefix": "jas:a",
+    "prefix": "as:a.",
     "body": "alignSelf: 'auto',"
   },
   "align-self:flex-start": {
-    "prefix": "jas:fs",
+    "prefix": "as:fs.",
     "body": "alignSelf: 'flex-start',"
   },
   "align-self:flex-end": {
-    "prefix": "jas:fe",
+    "prefix": "as:fe.",
     "body": "alignSelf: 'flex-end',"
   },
   "align-self:center": {
-    "prefix": "jas:c",
+    "prefix": "as:c.",
     "body": "alignSelf: 'center',"
   },
   "align-self:baseline": {
-    "prefix": "jas:b",
+    "prefix": "as:b.",
     "body": "alignSelf: 'baseline',"
   },
   "align-self:stretch": {
-    "prefix": "jas:s",
+    "prefix": "as:s.",
     "body": "alignSelf: 'stretch',"
   },
   "page-break-before:|": {
-    "prefix": "jpgbb",
+    "prefix": "pgbb.",
     "body": "pageBreakBefore: '$0',"
   },
   "page-break-before:auto": {
-    "prefix": "jpgbb:au",
+    "prefix": "pgbb:au.",
     "body": "pageBreakBefore: 'auto',"
   },
   "page-break-before:always": {
-    "prefix": "jpgbb:al",
+    "prefix": "pgbb:al.",
     "body": "pageBreakBefore: 'always',"
   },
   "page-break-before:left": {
-    "prefix": "jpgbb:l",
+    "prefix": "pgbb:l.",
     "body": "pageBreakBefore: 'left',"
   },
   "page-break-before:right": {
-    "prefix": "jpgbb:r",
+    "prefix": "pgbb:r.",
     "body": "pageBreakBefore: 'right',"
   },
   "page-break-inside:|": {
-    "prefix": "jpgbi",
+    "prefix": "pgbi.",
     "body": "pageBreakInside: '$0',"
   },
   "page-break-inside:auto": {
-    "prefix": "jpgbi:au",
+    "prefix": "pgbi:au.",
     "body": "pageBreakInside: 'auto',"
   },
   "page-break-inside:avoid": {
-    "prefix": "jpgbi:av",
+    "prefix": "pgbi:av.",
     "body": "pageBreakInside: 'avoid',"
   },
   "page-break-after:|": {
-    "prefix": "jpgba",
+    "prefix": "pgba.",
     "body": "pageBreakAfter: '$0',"
   },
   "page-break-after:auto": {
-    "prefix": "jpgba:au",
+    "prefix": "pgba:au.",
     "body": "pageBreakAfter: 'auto',"
   },
   "page-break-after:always": {
-    "prefix": "jpgba:al",
+    "prefix": "pgba:al.",
     "body": "pageBreakAfter: 'always',"
   },
   "page-break-after:left": {
-    "prefix": "jpgba:l",
+    "prefix": "pgba:l.",
     "body": "pageBreakAfter: 'left',"
   },
   "page-break-after:right": {
-    "prefix": "jpgba:r",
+    "prefix": "pgba:r.",
     "body": "pageBreakAfter: 'right',"
   },
   "orphans:|": {
-    "prefix": "jorp",
+    "prefix": "orp.",
     "body": "orphans: '$0',"
   },
   "user-select:${none}": {
-    "prefix": "jus",
+    "prefix": "us.",
     "body": "userSelect: '${none}',"
   },
   "widows:|": {
-    "prefix": "jwid",
+    "prefix": "wid.",
     "body": "widows: '$0',"
   },
   "-webkit-font-smoothing:${antialiased}": {
-    "prefix": "jwfsm",
+    "prefix": "wfsm.",
     "body": "webkitFontSmoothing: '${antialiased}',"
   },
   "-webkit-font-smoothing:antialiased": {
-    "prefix": "jwfsm:a",
+    "prefix": "wfsm:a.",
     "body": "webkitFontSmoothing: 'antialiased',"
   },
   "-webkit-font-smoothing:subpixel-antialiased": {
-    "prefix": "jwfsm:sa",
+    "prefix": "wfsm:sa.",
     "body": "webkitFontSmoothing: 'subpixel-antialiased',"
   },
   "-webkit-font-smoothing:none": {
-    "prefix": "jwfsm:n",
+    "prefix": "wfsm:n.",
     "body": "webkitFontSmoothing: 'none',"
   },
   "'@media ${1:screen}': {\n\t$0\n}": {
-    "prefix": "j@m",
+    "prefix": "@m.",
     "body": "'@media ${1:screen}': {\n\t$0\n},"
   },
   "'@keyframes ${1:identifier}': {\n\t${2:from}: { ${3} },\n\t${4:to}: { ${5} }\n}": {
-    "prefix": "j@kf",
+    "prefix": "@kf.",
     "body": "'@keyframes ${1:identifier}': {\n\t${2:from}: { ${3} },\n\t${4:to}: { ${5} }\n},"
   },
   "@font-face {\n\tfontFamily: $0\n\tsrc:url({$1:url})\n}$0": {
-    "prefix": "j@f",
+    "prefix": "@f.",
     "body": "@font-face {\n\tfontFamily: $0\n\tsrc:url({$1:url})\n}$0,"
   },
   "'@global': {\n\t$0\n}": {
-    "prefix": "j@g",
+    "prefix": "@g.",
     "body": "'@global': {\n\t$0\n},"
   },
   "extend: $0": {
-    "prefix": "jext",
+    "prefix": "ext.",
     "body": "extend: ' $0',"
   },
   "composes: $0": {
-    "prefix": "jcom",
+    "prefix": "com.",
     "body": "composes: ' $0',"
   },
   "'&:active': {\n\t$0\n}": {
-    "prefix": "j&ac",
+    "prefix": "&ac.",
     "body": "'&:active': {\n\t$0\n},"
   },
   "'&:after': {\n\t$0\n}": {
-    "prefix": "j&a",
+    "prefix": "&a.",
     "body": "'&:after': {\n\t$0\n},"
   },
   "'&:before': {\n\t$0\n}": {
-    "prefix": "j&b",
+    "prefix": "&b.",
     "body": "'&:before': {\n\t$0\n},"
   },
   "'&:checked': {\n\t$0\n}": {
-    "prefix": "j&c",
+    "prefix": "&c.",
     "body": "'&:checked': {\n\t$0\n},"
   },
   "'&:disabled': {\n\t$0\n}": {
-    "prefix": "j&d",
+    "prefix": "&d.",
     "body": "'&:disabled': {\n\t$0\n},"
   },
   "'&:enabled': {\n\t$0\n}": {
-    "prefix": "j&e",
+    "prefix": "&e.",
     "body": "'&:enabled': {\n\t$0\n},"
   },
   "'&:first-child': {\n\t$0\n}": {
-    "prefix": "j&fc",
+    "prefix": "&fc.",
     "body": "'&:first-child': {\n\t$0\n},"
   },
   "'&:first-letter': {\n\t$0\n}": {
-    "prefix": "j&fle",
+    "prefix": "&fle.",
     "body": "'&:first-letter': {\n\t$0\n},"
   },
   "'&:first-line': {\n\t$0\n}": {
-    "prefix": "j&fli",
+    "prefix": "&fli.",
     "body": "'&:first-line': {\n\t$0\n},"
   },
   "'&:focus': {\n\t$0\n}": {
-    "prefix": "j&f",
+    "prefix": "&f.",
     "body": "'&:focus': {\n\t$0\n},"
   },
   "'&:hover': {\n\t$0\n}": {
-    "prefix": "j&h",
+    "prefix": "&h.",
     "body": "'&:hover': {\n\t$0\n},"
   },
   "'&:lang()': {\n\t$0\n}": {
-    "prefix": "j&ln",
+    "prefix": "&ln.",
     "body": "'&:lang()': {\n\t$0\n},"
   },
   "'&:last-child': {\n\t$0\n}": {
-    "prefix": "j&lc",
+    "prefix": "&lc.",
     "body": "'&:last-child': {\n\t$0\n},"
   },
   "'&:link': {\n\t$0\n}": {
-    "prefix": "j&li",
+    "prefix": "&li.",
     "body": "'&:link': {\n\t$0\n},"
   },
   "'&:nth-child()': {\n\t$0\n}": {
-    "prefix": "j&nc",
+    "prefix": "&nc.",
     "body": "'&:nth-child()': {\n\t$0\n},"
   },
   "'&:visited': {\n\t$0\n}": {
-    "prefix": "j&v",
+    "prefix": "&v.",
     "body": "'&:visited': {\n\t$0\n},"
   },
   "'&:target': {\n\t$0\n}": {
-    "prefix": "j&tg",
+    "prefix": "&tg.",
     "body": "'&:target': {\n\t$0\n},"
   },
   "'&:first-of-type': {\n\t$0\n}": {
-    "prefix": "j&fot",
+    "prefix": "&fot.",
     "body": "'&:first-of-type': {\n\t$0\n},"
   },
   "'&:last-of-type': {\n\t$0\n}": {
-    "prefix": "j&lot",
+    "prefix": "&lot.",
     "body": "'&:last-of-type': {\n\t$0\n},"
   },
   "'&:nth-of-type()': {\n\t$0\n}": {
-    "prefix": "j&not",
+    "prefix": "&not.",
     "body": "'&:nth-of-type()': {\n\t$0\n},"
   },
   "'&:not()': {\n\t$0\n}": {
-    "prefix": "j&no",
+    "prefix": "&no.",
     "body": "'&:not()': {\n\t$0\n},"
   }
 }
