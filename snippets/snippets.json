@@ -2472,19 +2472,19 @@
     "body": "webkitFontSmoothing: 'none',"
   },
   "'@media ${1:screen}': {\n\t$0\n}": {
-    "prefix": "@m.",
+    "prefix": "m@.",
     "body": "'@media ${1:screen}': {\n\t$0\n},"
   },
   "'@keyframes ${1:identifier}': {\n\t${2:from}: { ${3} },\n\t${4:to}: { ${5} }\n}": {
-    "prefix": "@kf.",
+    "prefix": "k@f.",
     "body": "'@keyframes ${1:identifier}': {\n\t${2:from}: { ${3} },\n\t${4:to}: { ${5} }\n},"
   },
   "@font-face {\n\tfontFamily: $0\n\tsrc:url({$1:url})\n}$0": {
-    "prefix": "@f.",
+    "prefix": "f@.",
     "body": "@font-face {\n\tfontFamily: $0\n\tsrc:url({$1:url})\n}$0,"
   },
   "'@global': {\n\t$0\n}": {
-    "prefix": "@g.",
+    "prefix": "g@.",
     "body": "'@global': {\n\t$0\n},"
   },
   "extend: $0": {
@@ -2496,87 +2496,87 @@
     "body": "composes: ' $0',"
   },
   "'&:active': {\n\t$0\n}": {
-    "prefix": "&ac.",
+    "prefix": "ac&.",
     "body": "'&:active': {\n\t$0\n},"
   },
   "'&:after': {\n\t$0\n}": {
-    "prefix": "&a.",
+    "prefix": "a&.",
     "body": "'&:after': {\n\t$0\n},"
   },
   "'&:before': {\n\t$0\n}": {
-    "prefix": "&b.",
+    "prefix": "b&.",
     "body": "'&:before': {\n\t$0\n},"
   },
   "'&:checked': {\n\t$0\n}": {
-    "prefix": "&c.",
+    "prefix": "c&.",
     "body": "'&:checked': {\n\t$0\n},"
   },
   "'&:disabled': {\n\t$0\n}": {
-    "prefix": "&d.",
+    "prefix": "d&.",
     "body": "'&:disabled': {\n\t$0\n},"
   },
   "'&:enabled': {\n\t$0\n}": {
-    "prefix": "&e.",
+    "prefix": "e&.",
     "body": "'&:enabled': {\n\t$0\n},"
   },
   "'&:first-child': {\n\t$0\n}": {
-    "prefix": "&fc.",
+    "prefix": "fc&.",
     "body": "'&:first-child': {\n\t$0\n},"
   },
   "'&:first-letter': {\n\t$0\n}": {
-    "prefix": "&fle.",
+    "prefix": "fle&.",
     "body": "'&:first-letter': {\n\t$0\n},"
   },
   "'&:first-line': {\n\t$0\n}": {
-    "prefix": "&fli.",
+    "prefix": "fli&.",
     "body": "'&:first-line': {\n\t$0\n},"
   },
   "'&:focus': {\n\t$0\n}": {
-    "prefix": "&f.",
+    "prefix": "f&.",
     "body": "'&:focus': {\n\t$0\n},"
   },
   "'&:hover': {\n\t$0\n}": {
-    "prefix": "&h.",
+    "prefix": "h&.",
     "body": "'&:hover': {\n\t$0\n},"
   },
   "'&:lang()': {\n\t$0\n}": {
-    "prefix": "&ln.",
+    "prefix": "ln&.",
     "body": "'&:lang()': {\n\t$0\n},"
   },
   "'&:last-child': {\n\t$0\n}": {
-    "prefix": "&lc.",
+    "prefix": "lc&.",
     "body": "'&:last-child': {\n\t$0\n},"
   },
   "'&:link': {\n\t$0\n}": {
-    "prefix": "&li.",
+    "prefix": "li&.",
     "body": "'&:link': {\n\t$0\n},"
   },
   "'&:nth-child()': {\n\t$0\n}": {
-    "prefix": "&nc.",
+    "prefix": "nc&.",
     "body": "'&:nth-child()': {\n\t$0\n},"
   },
   "'&:visited': {\n\t$0\n}": {
-    "prefix": "&v.",
+    "prefix": "v&.",
     "body": "'&:visited': {\n\t$0\n},"
   },
   "'&:target': {\n\t$0\n}": {
-    "prefix": "&tg.",
+    "prefix": "tg&.",
     "body": "'&:target': {\n\t$0\n},"
   },
   "'&:first-of-type': {\n\t$0\n}": {
-    "prefix": "&fot.",
+    "prefix": "fot&.",
     "body": "'&:first-of-type': {\n\t$0\n},"
   },
   "'&:last-of-type': {\n\t$0\n}": {
-    "prefix": "&lot.",
+    "prefix": "lot&.",
     "body": "'&:last-of-type': {\n\t$0\n},"
   },
   "'&:nth-of-type()': {\n\t$0\n}": {
-    "prefix": "&not.",
+    "prefix": "not&.",
     "body": "'&:nth-of-type()': {\n\t$0\n},"
   },
   "'&:not()': {\n\t$0\n}": {
-    "prefix": "&no.",
+    "prefix": "no&.",
     "body": "'&:not()': {\n\t$0\n},"
   }
 }
