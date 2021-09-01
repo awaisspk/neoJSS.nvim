@@ -685,7 +685,7 @@
   },
   "outline-color:#${1:000}": {
     "prefix": "olc.",
-    "body": "outlineColor: '#${1:000}',"
+    "body": "outlineColor: '${1:000}',"
   },
   "outline-color:invert": {
     "prefix": "olc:i.",
@@ -709,7 +709,7 @@
   },
   "border:${1:1px} ${2:solid} ${3:#000}": {
     "prefix": "bd+.",
-    "body": "border: '${1:1px} ${2:solid} ${3:#000}',"
+    "body": "border: '${1:1px} ${2:solid} ${3:000}',"
   },
   "border:none": {
     "prefix": "bd:n.",
@@ -737,7 +737,7 @@
   },
   "border-color:#${1:000}": {
     "prefix": "bdc.",
-    "body": "borderColor: '#${1:000}',"
+    "body": "borderColor: '${1:000}',"
   },
   "border-color:transparent": {
     "prefix": "bdc:t.",
@@ -969,7 +969,7 @@
   },
   "border-top:${1:1px} ${2:solid} ${3:#000}": {
     "prefix": "bdt+.",
-    "body": "borderTop: '${1:1px} ${2:solid} ${3:#000}',"
+    "body": "borderTop: '${1:1px} ${2:solid} ${3:000}',"
   },
   "border-top:none": {
     "prefix": "bdt:n.",
@@ -985,7 +985,7 @@
   },
   "border-top-color:#${1:000}": {
     "prefix": "bdtc.",
-    "body": "borderTopColor: '#${1:000}',"
+    "body": "borderTopColor: '${1:000}',"
   },
   "border-top-color:transparent": {
     "prefix": "bdtc:t.",
@@ -997,7 +997,7 @@
   },
   "border-right:${1:1px} ${2:solid} ${3:#000}": {
     "prefix": "bdr+.",
-    "body": "borderRight: '${1:1px} ${2:solid} ${3:#000}',"
+    "body": "borderRight: '${1:1px} ${2:solid} ${3:000}',"
   },
   "border-right:none": {
     "prefix": "bdr:n.",
@@ -1013,7 +1013,7 @@
   },
   "border-right-color:#${1:000}": {
     "prefix": "bdrc.",
-    "body": "borderRightColor: '#${1:000}',"
+    "body": "borderRightColor: '${1:000}',"
   },
   "border-right-color:transparent": {
     "prefix": "bdrc:t.",
@@ -1025,7 +1025,7 @@
   },
   "border-bottom:${1:1px} ${2:solid} ${3:#000}": {
     "prefix": "bdb+.",
-    "body": "borderBottom: '${1:1px} ${2:solid} ${3:#000}',"
+    "body": "borderBottom: '${1:1px} ${2:solid} ${3:000}',"
   },
   "border-bottom:none": {
     "prefix": "bdb:n.",
@@ -1041,7 +1041,7 @@
   },
   "border-bottom-color:#${1:000}": {
     "prefix": "bdbc.",
-    "body": "borderBottomColor: '#${1:000}',"
+    "body": "borderBottomColor: '${1:000}',"
   },
   "border-bottom-color:transparent": {
     "prefix": "bdbc:t.",
@@ -1053,7 +1053,7 @@
   },
   "border-left:${1:1px} ${2:solid} ${3:#000}": {
     "prefix": "bdl+.",
-    "body": "borderLeft: '${1:1px} ${2:solid} ${3:#000}',"
+    "body": "borderLeft: '${1:1px} ${2:solid} ${3:000}',"
   },
   "border-left:none": {
     "prefix": "bdl:n.",
@@ -1069,7 +1069,7 @@
   },
   "border-left-color:#${1:000}": {
     "prefix": "bdlc.",
-    "body": "borderLeftColor: '#${1:000}',"
+    "body": "borderLeftColor: '${1:000}',"
   },
   "border-left-color:transparent": {
     "prefix": "bdlc:t.",
@@ -1097,11 +1097,11 @@
   },
   "background:#${1:000}": {
     "prefix": "bg.",
-    "body": "background: '#${1:000}',"
+    "body": "background: '${1:000}',"
   },
   "background:${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat}": {
     "prefix": "bg+.",
-    "body": "background: '${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat}',"
+    "body": "background: '${1} url(${2}) ${3:0} ${4:0} ${5:no-repeat}',"
   },
   "background:none": {
     "prefix": "bg:n.",
@@ -1113,7 +1113,7 @@
   },
   "background-color:#${1:fff}": {
     "prefix": "bgc.",
-    "body": "backgroundColor: '#${1:fff}',"
+    "body": "backgroundColor: '${1:fff}',"
   },
   "background-color:transparent": {
     "prefix": "bgc:t.",
@@ -1245,7 +1245,7 @@
   },
   "color:#${1:000}": {
     "prefix": "c.",
-    "body": "color: '#${1:000}',"
+    "body": "color: '${1:000}',"
   },
   "color:rgb(${1:0}, ${2:0}, ${3:0})": {
     "prefix": "c:r.",
@@ -1625,7 +1625,7 @@
   },
   "text-outline:${1:0} ${2:0} ${3:#000}": {
     "prefix": "to+.",
-    "body": "textOutline: '${1:0} ${2:0} ${3:#000}',"
+    "body": "textOutline: '${1:0} ${2:0} ${3}',"
   },
   "text-outline:none": {
     "prefix": "to:n.",
@@ -1681,7 +1681,7 @@
   },
   "text-shadow:${1:hoff} ${2:voff} ${3:blur} ${4:#000}": {
     "prefix": "tsh.",
-    "body": "textShadow: '${1:hoff} ${2:voff} ${3:blur} ${4:#000}',"
+    "body": "textShadow: '${1:hoff} ${2:voff} ${3:blur} ${4}',"
   },
   "text-shadow:${1:h} ${2:v} ${3:blur} rgb(${4:0}, ${5:0}, ${6:0})": {
     "prefix": "tsh:r.",
@@ -1693,7 +1693,7 @@
   },
   "text-shadow:${1:0} ${2:0} ${3:0} ${4:#000}": {
     "prefix": "tsh+.",
-    "body": "textShadow: '${1:0} ${2:0} ${3:0} ${4:#000}',"
+    "body": "textShadow: '${1:0} ${2:0} ${3:0} ${4}',"
   },
   "text-shadow:none": {
     "prefix": "tsh:n.",
