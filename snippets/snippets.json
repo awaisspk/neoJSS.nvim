@@ -267,6 +267,14 @@
     "prefix": "d:if.",
     "body": "display: 'inline-flex',"
   },
+  "display:grid": {
+    "prefix": "d:g.",
+    "body": "display: 'grid',"
+  },
+  "display:inline-grid": {
+    "prefix": "d:ig.",
+    "body": "display: 'inline-grid',"
+  },
   "display:inline": {
     "prefix": "d:i.",
     "body": "display: 'inline',"
