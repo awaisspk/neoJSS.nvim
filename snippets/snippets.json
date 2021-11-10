@@ -2669,5 +2669,11 @@
     "prefix": "gac",
     "body": "gridAutoColumns: '$0', ",
     "description": "specify the size of implicitly-created column tracks."
+  },
+
+  "import stitches config": {
+    "prefix": "ims",
+    "body": "import {$0} from '@stitchesConfig';",
+    "description": "import configuration from stitches.config.ts"
   }
 }
