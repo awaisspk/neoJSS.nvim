@@ -2675,5 +2675,15 @@
     "prefix": "ims",
     "body": "import {$0} from '@stitchesConfig';",
     "description": "import configuration from stitches.config.ts"
+  },
+  "import framer motion": {
+    "prefix": "imf",
+    "body": "import {$0} from 'framer-motion';",
+    "description": "import framer motion"
+  },
+  "import component": {
+    "prefix": "imc",
+    "body": "import {$0} from '@components/${$1}';",
+    "description": "import framer motion"
   }
 }
